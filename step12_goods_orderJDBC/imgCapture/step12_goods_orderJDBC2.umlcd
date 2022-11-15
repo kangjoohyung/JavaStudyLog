@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_vkvG0DGnEe2FoLK32lLlAA">
+  <modelElement href="../step12_goods_orderJDBC2.uml#_vjV_sDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1kLgwDGnEe2FoLK32lLlAA" targetItem="_1kRnYTGnEe2FoLK32lLlAA" sourceItem="_1j5z8DGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1kQZQDGnEe2FoLK32lLlAA" sourceAnchor="0.0,54.0" targetAnchor="392.0,43.0" target="_16uYgDGnEe2FoLK32lLlAA" source="_1kRAUDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGE5UDGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_1kQZQTGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGFgYDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1kQZQjGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_28zgkDGnEe2FoLK32lLlAA" position="33.0,-10.999999999999986"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1kQZQzGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGE5UTGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_28yScDGnEe2FoLK32lLlAA" position="-21.0,11.0"/>
+      <visibility xmi:id="_1kQZRDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1kQZRTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1kQZRjGnEe2FoLK32lLlAA" aggregationKind="NONE" name="goodsService" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFJsQDGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_28zgkTGnEe2FoLK32lLlAA" position="5.0,-66.99999999999991"/>
+      <visibility xmi:id="_1kQZRzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1kQZSDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1lvnADGnEe2FoLK32lLlAA" sourceAnchor="160.0,0.0" targetAnchor="199.0,63.0" target="_1pamEDGnEe2FoLK32lLlAA" source="_1mZuUDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGFgYTGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_1lvnATGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGGHcDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1lvnAjGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_281VwDGnEe2FoLK32lLlAA" position="-21.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1lvnAzGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGFgYjGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_280usDGnEe2FoLK32lLlAA" position="-21.0,-60.0"/>
+      <visibility xmi:id="_1lvnBDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1lvnBTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1lvnBjGnEe2FoLK32lLlAA" aggregationKind="NONE" name="customerService" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFKTUjGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_281VwTGnEe2FoLK32lLlAA" position="2.0,5.0"/>
+      <visibility xmi:id="_1lvnBzGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_1lvnCDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1myI0DGnEe2FoLK32lLlAA" sourceAnchor="0.0,32.0" targetAnchor="398.0,43.0" target="_1nQp8DGnEe2FoLK32lLlAA" source="_1pamEDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGKY4DGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_1nPb0TGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGK_8DGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1nONsDGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_282j4DGnEe2FoLK32lLlAA" position="31.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1nO0wDGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGKY4TGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_28180DGnEe2FoLK32lLlAA" position="-21.0,11.0"/>
+      <visibility xmi:id="_1nQC4DGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1nPb0jGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1nPb0DGnEe2FoLK32lLlAA" aggregationKind="NONE" name="customerDao" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFTdQDGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_282j4TGnEe2FoLK32lLlAA" position="5.0,-67.00000000000011"/>
+      <stereotypes xmi:id="_1nQC4zGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFUEUDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1nQC4jGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_1nQC4TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1nyOYDGnEe2FoLK32lLlAA" sourceAnchor="213.0,0.0" targetAnchor="199.0,85.0" dashed="true" superClass="_1nQp8DGnEe2FoLK32lLlAA" subClass="_1ofZADGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wD9ZcDGnEe2FoLK32lLlAA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1rb_UDGnEe2FoLK32lLlAA" source="_1sHUwDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGOqUTGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_1rb_UTGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGPRYDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1rb_UjGnEe2FoLK32lLlAA" text=""/>
+    <sourceRole xmi:id="_1rb_UzGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGOqUjGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1rb_VDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1rb_VTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1rb_VjGnEe2FoLK32lLlAA" aggregationKind="NONE" name="proFile" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFZj4DGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1rb_VzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1rb_WDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1tBTsDGnEe2FoLK32lLlAA" sourceAnchor="239.0,0.0" targetAnchor="193.0,86.0" superClass="_1idCcDGnEe2FoLK32lLlAA" subClass="_1t75sDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wD6WIDGnEe2FoLK32lLlAA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_10-V0DGnEe2FoLK32lLlAA" sourceAnchor="79.0,0.0" targetAnchor="196.0,86.0" target="_16uYgDGnEe2FoLK32lLlAA" source="_113tsDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGGugDGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_1114gzGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGHVkDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1114gDGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_284ZEDGnEe2FoLK32lLlAA" position="-21.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1114gTGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGGugTGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_283K8DGnEe2FoLK32lLlAA" position="-21.0,-60.0"/>
+      <visibility xmi:id="_112fkDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1114hDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1114gjGnEe2FoLK32lLlAA" aggregationKind="NONE" name="goodsService" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFK6YjGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_284ZETGnEe2FoLK32lLlAA" position="12.0,4.999999999999972"/>
+      <visibility xmi:id="_112fkjGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_112fkTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_12qX4DGnEe2FoLK32lLlAA" sourceAnchor="0.0,30.0" targetAnchor="392.0,54.0" target="_13yZQTGnEe2FoLK32lLlAA" source="_16uYgDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGK_8TGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_13xLIzGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGMOEDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_13xLIDGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_287cYDGnEe2FoLK32lLlAA" position="-38.0,2.000000000000014"/>
+    </nameVisual>
+    <sourceRole xmi:id="_13xLITGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGK_8jGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_286OQDGnEe2FoLK32lLlAA" position="-32.0,-57.0"/>
+      <visibility xmi:id="_13xyMTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_13xyMDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_13xLIjGnEe2FoLK32lLlAA" aggregationKind="NONE" name="goodsDao" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFUrYDGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_287cYTGnEe2FoLK32lLlAA" position="54.0,-56.99999999999997"/>
+      <stereotypes xmi:id="_13yZQDGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFVScDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_13xyMzGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_13xyMjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_14p78DGnEe2FoLK32lLlAA" sourceAnchor="134.0,0.0" targetAnchor="196.0,108.0" dashed="true" superClass="_13yZQTGnEe2FoLK32lLlAA" subClass="_15fpcDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wD_1sDGnEe2FoLK32lLlAA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_19f_sDGnEe2FoLK32lLlAA" targetItem="_1962lDGnEe2FoLK32lLlAA" sourceItem="_18mn0DGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_193MEDGnEe2FoLK32lLlAA" targetItem="_1962lzGnEe2FoLK32lLlAA" sourceItem="_19hN0DGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_193zITGnEe2FoLK32lLlAA" targetItem="_1962nTGnEe2FoLK32lLlAA" sourceItem="_193zIDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_195BQTGnEe2FoLK32lLlAA" targetItem="_1962ozGnEe2FoLK32lLlAA" sourceItem="_195BQDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_195oUTGnEe2FoLK32lLlAA" targetItem="_1962qTGnEe2FoLK32lLlAA" sourceItem="_195oUDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1962cDGnEe2FoLK32lLlAA" source="_1962eTGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGPRYTGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_1962cTGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGP4cDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1962cjGnEe2FoLK32lLlAA" text=""/>
+    <sourceRole xmi:id="_1962czGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGPRYjGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962dDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962dTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1962djGnEe2FoLK32lLlAA" aggregationKind="NONE" name="sc" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFbZEDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962dzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962eDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1-znQDGnEe2FoLK32lLlAA" source="_2AELgDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGQfgTGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_2ADkcDGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGRGkDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_2AC9YDGnEe2FoLK32lLlAA" text=""/>
+    <sourceRole xmi:id="_2AC9YTGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGQfgjGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2ADkcjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2ADkcTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_2AC9YjGnEe2FoLK32lLlAA" aggregationKind="NONE" name="sc" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFiGwDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2ADkdDGnEe2FoLK32lLlAA" label="-"/>
+      <cardinality xmi:id="_2ADkczGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2AAhIDGnEe2FoLK32lLlAA" targetItem="_2AELkTGnEe2FoLK32lLlAA" sourceItem="_1__6EDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2AAhIjGnEe2FoLK32lLlAA" targetItem="_2AELlDGnEe2FoLK32lLlAA" sourceItem="_2AAhITGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2ABIMTGnEe2FoLK32lLlAA" targetItem="_2AELlzGnEe2FoLK32lLlAA" sourceItem="_2ABIMDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2ACWUTGnEe2FoLK32lLlAA" targetItem="_2AELmjGnEe2FoLK32lLlAA" sourceItem="_2ACWUDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2BsjMDGnEe2FoLK32lLlAA" targetItem="_2CJPIDGnEe2FoLK32lLlAA" sourceItem="_2A88UDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2DujgDGnEe2FoLK32lLlAA" targetItem="_2EO50DGnEe2FoLK32lLlAA" sourceItem="_2C9HcDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2GWZsDGnEe2FoLK32lLlAA" targetItem="_2GZdETGnEe2FoLK32lLlAA" sourceItem="_2FIRsDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2GXn0DGnEe2FoLK32lLlAA" targetItem="_2GZdFzGnEe2FoLK32lLlAA" sourceItem="_2GXAwDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_2GZdADGnEe2FoLK32lLlAA" sourceAnchor="161.0,0.0" targetAnchor="199.0,86.0" target="_2U7BMDGnEe2FoLK32lLlAA" source="_2GZdCTGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGHVkTGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_2GZdATGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGH8oDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_2GZdAjGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_288qgDGnEe2FoLK32lLlAA" position="-21.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_2GZdAzGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGHVkjGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_288DcDGnEe2FoLK32lLlAA" position="-21.0,-60.0"/>
+      <visibility xmi:id="_2GZdBDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2GZdBTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_2GZdBjGnEe2FoLK32lLlAA" aggregationKind="NONE" name="orderService" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFLhcTGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_289RkDGnEe2FoLK32lLlAA" position="2.0,5.0"/>
+      <visibility xmi:id="_2GZdBzGnEe2FoLK32lLlAA" label="-"/>
+      <cardinality xmi:id="_2GZdCDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_2HPxkDGnEe2FoLK32lLlAA" sourceAnchor="0.0,43.0" targetAnchor="398.0,54.0" target="_2IuYQDGnEe2FoLK32lLlAA" source="_2U7BMDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGMOETGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_2ItKIzGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGM1IDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_2ItKIDGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_29BjADGnEe2FoLK32lLlAA" position="18.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_2ItKITGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGMOEjGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_29A78DGnEe2FoLK32lLlAA" position="-21.0,11.0"/>
+      <visibility xmi:id="_2ItxMTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2ItxMDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_2ItKIjGnEe2FoLK32lLlAA" aggregationKind="NONE" name="orderDao" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFV5gDGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_29BjATGnEe2FoLK32lLlAA" position="5.0,-67.0"/>
+      <stereotypes xmi:id="_2ItxNDGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFWgkDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2ItxMzGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_2ItxMjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_2JnwIDGnEe2FoLK32lLlAA" sourceAnchor="169.0,0.0" targetAnchor="392.0,84.0" target="_13yZQTGnEe2FoLK32lLlAA" source="_2MEAIDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGH8oTGnEe2FoLK32lLlAA"/>
+    <bendpoints xmi:id="_DRuO0zGoEe2FoLK32lLlAA" sourceY="-433" targetX="342"/>
+    <stereotypes xmi:id="_2MBj4jGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGJKwDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_2MA80DGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_28-fsDGnEe2FoLK32lLlAA" position="-82.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_2MBj4DGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGH8ojGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_289RkTGnEe2FoLK32lLlAA" position="2.0,-103.0"/>
+      <visibility xmi:id="_2MCyATGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2MCyADGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_2MBj4TGnEe2FoLK32lLlAA" aggregationKind="NONE" name="goodsDao" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFMvkDGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_28-fsTGnEe2FoLK32lLlAA" position="64.0,2.0"/>
+      <visibility xmi:id="_2MCyAzGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_2MCyAjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_2LR9ADGnEe2FoLK32lLlAA" sourceAnchor="501.0,0.0" targetAnchor="8.0,108.0" dashed="true" superClass="_2IuYQDGnEe2FoLK32lLlAA" subClass="_2MEAIDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wEC5ATGnEe2FoLK32lLlAA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_2N2v4DGnEe2FoLK32lLlAA" sourceAnchor="361.0,0.0" targetAnchor="389.0,254.0" target="_2PfuozGnEe2FoLK32lLlAA" source="_2RTFcDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGJKwTGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_2PfHkTGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGJx0DGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_2PeggDGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_28_t0DGnEe2FoLK32lLlAA" position="-21.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_2PeggTGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGJKwjGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_28_GwDGnEe2FoLK32lLlAA" position="-21.0,-60.0"/>
+      <visibility xmi:id="_2PfuoDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2PfHkjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_2PfHkDGnEe2FoLK32lLlAA" aggregationKind="NONE" name="orderLineList" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFSPITGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_29AU4DGnEe2FoLK32lLlAA" position="1.0,5.0"/>
+      <visibility xmi:id="_2PfuojGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2PfuoTGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2aLUoDGnEe2FoLK32lLlAA" targetItem="_2a67gDGnEe2FoLK32lLlAA" sourceItem="_2YboMDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_2a3RIDGnEe2FoLK32lLlAA" source="_2a67gDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGP4cTGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_2a5GUzGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGQfgDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_2a5GUDGnEe2FoLK32lLlAA" text=""/>
+    <sourceRole xmi:id="_2a5GUTGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGP4cjGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2a5tYTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a5tYDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_2a5GUjGnEe2FoLK32lLlAA" aggregationKind="NONE" name="attributes" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFdOQDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2a6UczGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a6UcjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_2a6UcDGnEe2FoLK32lLlAA">
+        <qualifiers xmi:id="_2a6UcTGnEe2FoLK32lLlAA">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wFdOQTGnEe2FoLK32lLlAA"/>
+          <visibility xmi:id="_2a6UdTGnEe2FoLK32lLlAA" label="+"/>
+          <cardinality xmi:id="_2a6UdjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+          <type xmi:id="_2a6UdDGnEe2FoLK32lLlAA" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_2cQYQDGnEe2FoLK32lLlAA" sourceAnchor="285.0,89.0" targetAnchor="143.0,177.0" target="_2f13wDGnEe2FoLK32lLlAA" source="_2f13wDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGM1ITGnEe2FoLK32lLlAA"/>
+    <bendpoints xmi:id="_DRuO0DGoEe2FoLK32lLlAA" sourceX="53" targetX="195" targetY="-88"/>
+    <bendpoints xmi:id="_DRuO0TGoEe2FoLK32lLlAA" sourceX="53" sourceY="195" targetX="195" targetY="107"/>
+    <bendpoints xmi:id="_DRuO0jGoEe2FoLK32lLlAA" sourceX="-142" sourceY="195" targetY="107"/>
+    <stereotypes xmi:id="_2f0pozGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGNcMDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_2f0poDGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_29DYMDGnEe2FoLK32lLlAA" position="-23.0,-180.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_2f0poTGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGM1IjGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_29CxIDGnEe2FoLK32lLlAA" position="5.0,-67.0"/>
+      <visibility xmi:id="_2f1QsTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2f1QsDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_2f0pojGnEe2FoLK32lLlAA" aggregationKind="NONE" name="ss" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFXHoDGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_29D_QDGnEe2FoLK32lLlAA" position="12.0,5.0"/>
+      <visibility xmi:id="_2f1QszGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2f1QsjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_2eDvEDGnEe2FoLK32lLlAA" sourceAnchor="143.0,0.0" targetAnchor="172.0,277.0" target="_2a67gDGnEe2FoLK32lLlAA" source="_2f13wDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wGODQDGnEe2FoLK32lLlAA"/>
+    <stereotypes xmi:id="_2eFkQzGnEe2FoLK32lLlAA" name="Reference">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGOqUDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_2eFkQDGnEe2FoLK32lLlAA" text="">
+      <visualProperties xmi:id="_29GbgTGnEe2FoLK32lLlAA" position="-21.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_2eFkQTGnEe2FoLK32lLlAA" aggregationKind="NONE" name="">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wGODQTGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_29GbgDGnEe2FoLK32lLlAA" position="-21.0,-60.0"/>
+      <visibility xmi:id="_2f0ppTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2f0ppDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_2eFkQjGnEe2FoLK32lLlAA" aggregationKind="NONE" name="set" navigable="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFYVwDGnEe2FoLK32lLlAA"/>
+      <visualProperties xmi:id="_29HCkDGnEe2FoLK32lLlAA" position="8.0,5.0"/>
+      <visibility xmi:id="_2f0ppzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2f0ppjGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2fD0oDGnEe2FoLK32lLlAA" targetItem="_2f132DGnEe2FoLK32lLlAA" sourceItem="_2eGLUDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2fFCwDGnEe2FoLK32lLlAA" targetItem="_2f134DGnEe2FoLK32lLlAA" sourceItem="_2fEbsDGnEe2FoLK32lLlAA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2f0CkDGnEe2FoLK32lLlAA" targetItem="_2f135jGnEe2FoLK32lLlAA" sourceItem="_2fFCwTGnEe2FoLK32lLlAA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1j5z8DGnEe2FoLK32lLlAA" sourceConnectionVisual="_1kLgwDGnEe2FoLK32lLlAA" text="장바구니 보기&#xD;&#xA;    *" item="_1kRnYTGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF6hQDGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_18mn0DGnEe2FoLK32lLlAA" sourceConnectionVisual="_19f_sDGnEe2FoLK32lLlAA" text="로그인 메뉴&#xD;&#xA;&#x9; *" item="_1962lDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF89gDGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_19hN0DGnEe2FoLK32lLlAA" sourceConnectionVisual="_193MEDGnEe2FoLK32lLlAA" text="로그아웃&#xD;&#xA;&#x9; *" item="_1962lzGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF89gTGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_193zIDGnEe2FoLK32lLlAA" sourceConnectionVisual="_193zITGnEe2FoLK32lLlAA" text="주문하기&#xD;&#xA;&#x9; *" item="_1962nTGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF89gjGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_195BQDGnEe2FoLK32lLlAA" sourceConnectionVisual="_195BQTGnEe2FoLK32lLlAA" text="장바구니 담기&#xD;&#xA;     *" item="_1962ozGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF89gzGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_195oUDGnEe2FoLK32lLlAA" sourceConnectionVisual="_195oUTGnEe2FoLK32lLlAA" text="장바구니 보기&#xD;&#xA;     *" item="_1962qTGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF89hDGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1__6EDGnEe2FoLK32lLlAA" sourceConnectionVisual="_2AAhIDGnEe2FoLK32lLlAA" text="로그인" item="_2AELkTGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF9kkDGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2AAhITGnEe2FoLK32lLlAA" sourceConnectionVisual="_2AAhIjGnEe2FoLK32lLlAA" text="아이디 찾기" item="_2AELlDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF9kkTGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2ABIMDGnEe2FoLK32lLlAA" sourceConnectionVisual="_2ABIMTGnEe2FoLK32lLlAA" text="비밀번호 찾기" item="_2AELlzGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF9kkjGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2ACWUDGnEe2FoLK32lLlAA" sourceConnectionVisual="_2ACWUTGnEe2FoLK32lLlAA" text="회원가입" item="_2AELmjGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF-LoDGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2A88UDGnEe2FoLK32lLlAA" sourceConnectionVisual="_2BsjMDGnEe2FoLK32lLlAA" text="수정할때 발생하는 예외&#xD;&#xA; *" item="_2CJPIDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF7IUDGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2C9HcDGnEe2FoLK32lLlAA" sourceConnectionVisual="_2DujgDGnEe2FoLK32lLlAA" text="검색했을때 찾고자하는 정보가 없는 경우 예외&#xD;&#xA; *" item="_2EO50DGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF7IUTGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2FIRsDGnEe2FoLK32lLlAA" sourceConnectionVisual="_2GWZsDGnEe2FoLK32lLlAA" text="주문내역보기&#xD;&#xA;&#x9; *" item="_2GZdETGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF6hQjGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2GXAwDGnEe2FoLK32lLlAA" sourceConnectionVisual="_2GXn0DGnEe2FoLK32lLlAA" text="주문하기&#xD;&#xA;&#x9; *" item="_2GZdFzGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF6hQTGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2YboMDGnEe2FoLK32lLlAA" sourceConnectionVisual="_2aLUoDGnEe2FoLK32lLlAA" text="사용자 객체&#xD;&#xA;  : 로그인(인증)을 하면 인증된 사용자의 정보를 Session객체로 만들어서 저장한다.&#xD;&#xA; *" item="_2a67gDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF89hTGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2eGLUDGnEe2FoLK32lLlAA" sourceConnectionVisual="_2fD0oDGnEe2FoLK32lLlAA" text="사용자 찾기&#xD;&#xA;&#x9; *" item="_2f132DGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF8WcDGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2fEbsDGnEe2FoLK32lLlAA" sourceConnectionVisual="_2fFCwDGnEe2FoLK32lLlAA" text="로그인 된 사용자 추가&#xD;&#xA;&#x9;&#x9; *" item="_2f134DGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF8WcTGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2fFCwTGnEe2FoLK32lLlAA" sourceConnectionVisual="_2f0CkDGnEe2FoLK32lLlAA" text="사용자 제거 - 로그아웃&#xD;&#xA;&#x9; *" item="_2f135jGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wF8WcjGnEe2FoLK32lLlAA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1idCcDGnEe2FoLK32lLlAA" name="AddException" subclassedBy="_1tBTsDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wAGNIDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1idCcTGnEe2FoLK32lLlAA" position="1221.0,1660.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1idCcjGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_1idCczGnEe2FoLK32lLlAA" name="AddException">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAGNITGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_1idCdDGnEe2FoLK32lLlAA" keyword="create"/>
+      <stereotypes xmi:id="_1idCdTGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAG0MjGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1idCdjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1idCdzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1idCeDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAG0MzGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1idCeTGnEe2FoLK32lLlAA" name="AddException">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAGNIDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1idCejGnEe2FoLK32lLlAA" name="AddException">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAHbQDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_1idCezGnEe2FoLK32lLlAA" keyword="create"/>
+      <visibility xmi:id="_1idCfDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1idCfTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1idCfjGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAICUjGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1idCfzGnEe2FoLK32lLlAA" name="AddException">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAGNIDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1idCgDGnEe2FoLK32lLlAA" name="message">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAHbQTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1idCgTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1idCgjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1kRAUDGnEe2FoLK32lLlAA" name="CartController" associationsOut="_1kQZQDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_v_5_4DGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1kRAUTGnEe2FoLK32lLlAA" position="1825.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1kRAUjGnEe2FoLK32lLlAA" name="Patch">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_zJIaoDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <visibility xmi:id="_1kRAUzGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_1kRAVDGnEe2FoLK32lLlAA" defaultValue="new GoodsService()" name="goodsService" staticAttribute="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFJsQDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_1kRAVTGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFKTUDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1kRAVjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1kRAVzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1kRAWDGnEe2FoLK32lLlAA" name="GoodsService">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA6FcDGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1kRAWTGnEe2FoLK32lLlAA" name="putCart" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_v_8cIDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1kRAWjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1kRAWzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1kRAXDGnEe2FoLK32lLlAA" name="id">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_v_8cITGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1kRAXTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1kRAXjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1kRAXzGnEe2FoLK32lLlAA" name="goodsId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_v_8cIjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1kRAYDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1kRAYTGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1kRAYjGnEe2FoLK32lLlAA" name="quantity">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_v_8cIzGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1kRAYzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1kRnYDGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1kRnYTGnEe2FoLK32lLlAA" comments="_1j5z8DGnEe2FoLK32lLlAA" targetConnectionVisual="_1kLgwDGnEe2FoLK32lLlAA" name="viewCart" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_v_9DMDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1kRnYjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1kRnYzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1kRnZDGnEe2FoLK32lLlAA" name="id">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_v_9DMTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1kRnZTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1kRnZjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1lAAIDGnEe2FoLK32lLlAA" name="Customer">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wApmwDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1lAAITGnEe2FoLK32lLlAA" position="1716.0,1662.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1lAAIjGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_1lAAIzGnEe2FoLK32lLlAA" name="userId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFN9sDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1lAAJDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1lAAJTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1lAAJjGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1lAAJzGnEe2FoLK32lLlAA" name="userPwd">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFN9sTGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1lAAKDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1lAAKTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1lAAKjGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1lAAKzGnEe2FoLK32lLlAA" name="userName">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFOkwDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1lAALDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1lAALTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1lAALjGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1lAALzGnEe2FoLK32lLlAA" name="regDate">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFOkwTGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1lAAMDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1lAAMTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1lAAMjGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1lAAMzGnEe2FoLK32lLlAA" name="Customer">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAq04DGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_1lAANDGnEe2FoLK32lLlAA" keyword="create"/>
+      <stereotypes xmi:id="_1lAANTGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wArb8DGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1lAANjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1lAANzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1lAAODGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wArb8TGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1lAAOTGnEe2FoLK32lLlAA" name="Customer">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wApmwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1lAAOjGnEe2FoLK32lLlAA" name="Customer">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wArb8jGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_1lAAOzGnEe2FoLK32lLlAA" keyword="create"/>
+      <visibility xmi:id="_1lAAPDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1lAAPTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1lAAPjGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAsDBTGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1lAAPzGnEe2FoLK32lLlAA" name="Customer">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wApmwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1lAAQDGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wArb8zGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1lAAQTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1lAAQjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1lAAQzGnEe2FoLK32lLlAA" name="userPwd">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAsDADGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1lAARDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1lAARTGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1lAARjGnEe2FoLK32lLlAA" name="userName">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAsDATGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1lAARzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1lAASDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1lAASTGnEe2FoLK32lLlAA" name="regDate">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAsDAjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1lAASjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1lAASzGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1mZuUDGnEe2FoLK32lLlAA" name="CustomerController" associationsOut="_1lvnADGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_v_-4YDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1maVYDGnEe2FoLK32lLlAA" position="1579.0,1242.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1maVYTGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_1maVYjGnEe2FoLK32lLlAA" defaultValue="new CustomerService()" name="customerService" staticAttribute="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFKTUjGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_1maVYzGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFK6YTGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1maVZDGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_1maVZTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1maVZjGnEe2FoLK32lLlAA" name="CustomerService">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA3CIDGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1maVZzGnEe2FoLK32lLlAA" name="login" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAAGgDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1maVaDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1maVaTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1maVajGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAAGgTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1maVazGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1maVbDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1maVbTGnEe2FoLK32lLlAA" name="userPwd">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAAGgjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1maVbjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1maVbzGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_1nQp8DGnEe2FoLK32lLlAA" name="CustomerDAO" associationsIn="_1myI0DGnEe2FoLK32lLlAA" subclassedBy="_1nyOYDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wARzUDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1nQp8TGnEe2FoLK32lLlAA" position="864.0,919.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1nQp8jGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_1nQp8zGnEe2FoLK32lLlAA" name="login">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wATBcDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1nQp9DGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1nQp9TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1nQp9jGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wD6WITGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1nQp9zGnEe2FoLK32lLlAA" name="Customer">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wApmwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1nQp-DGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wATBcTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1nQp-TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1nQp-jGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1nQp-zGnEe2FoLK32lLlAA" name="userPwd">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wATBcjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1nQp_DGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1nQp_TGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1ofZADGnEe2FoLK32lLlAA" name="CustomerDAOImpl" generalizations="_1nyOYDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wAUPkDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1ofZATGnEe2FoLK32lLlAA" position="850.0,1034.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1ofZAjGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_1ofZAzGnEe2FoLK32lLlAA" name="login">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAVdsDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_1ofZBDGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAWEwDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1ofZBTGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAWr0DGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1ofZBjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1ofZBzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1ofZCDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wD9ZcTGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1ofZCTGnEe2FoLK32lLlAA" name="Customer">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wApmwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1ofZCjGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAVdsTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1ofZCzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1ofZDDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1ofZDTGnEe2FoLK32lLlAA" name="userPwd">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAVdsjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1ofZDjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1ofZDzGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1pamEDGnEe2FoLK32lLlAA" name="CustomerService" associationsIn="_1lvnADGnEe2FoLK32lLlAA" associationsOut="_1myI0DGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wA3CIDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1pamETGnEe2FoLK32lLlAA" position="1540.0,930.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1pamEjGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_1pamEzGnEe2FoLK32lLlAA" defaultValue="new CustomerDAOImpl()" name="customerDao">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFTdQDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1pamFDGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_1pamFTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1pamFjGnEe2FoLK32lLlAA" name="CustomerDAO">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wARzUDGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1pamFzGnEe2FoLK32lLlAA" name="login">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wA4QQDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1pamGDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1pamGTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1pamGjGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEN4IDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1pamGzGnEe2FoLK32lLlAA" name="Customer">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wApmwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1pamHDGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA4QQTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1pamHTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1pamHjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1pamHzGnEe2FoLK32lLlAA" name="userPwd">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA4QQjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1pamIDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1pamITGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1t75sDGnEe2FoLK32lLlAA" name="DuplicatedException" generalizations="_1tBTsDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wAIpYDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1t75sTGnEe2FoLK32lLlAA" position="1175.0,1777.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1t75sjGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_1t75szGnEe2FoLK32lLlAA" name="DuplicatedException">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAJQcDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_1t75tDGnEe2FoLK32lLlAA" keyword="create"/>
+      <stereotypes xmi:id="_1t75tTGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAJ3gjGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1t75tjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1t75tzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1t75uDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAJ3gzGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1t75uTGnEe2FoLK32lLlAA" name="DuplicatedException">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAIpYDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1t75ujGnEe2FoLK32lLlAA" name="DuplicatedException">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAKekDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_1t75uzGnEe2FoLK32lLlAA" keyword="create"/>
+      <visibility xmi:id="_1t75vDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1t75vTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1t75vjGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wALFojGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1t75vzGnEe2FoLK32lLlAA" name="DuplicatedException">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAIpYDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1t75wDGnEe2FoLK32lLlAA" name="message">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAKekTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1t75wTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1t75wjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1u478DGnEe2FoLK32lLlAA" name="EndView">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wBIu8DGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1u478TGnEe2FoLK32lLlAA" position="505.0,2001.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1u478jGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_1u478zGnEe2FoLK32lLlAA" name="printMessage" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBJWADGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1u479DGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1u479TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1u479jGnEe2FoLK32lLlAA" name="message">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBJ9EDGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1u479zGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1u47-DGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1u47-TGnEe2FoLK32lLlAA" name="printGoodsList" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wE2xUDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1u47-jGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1u47-zGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1u47_DGnEe2FoLK32lLlAA" name="list">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE2xUTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1u47_TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1u47_jGnEe2FoLK32lLlAA" name="List">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wD2rwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1u47_zGnEe2FoLK32lLlAA" name="printViewCart" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wE4mgDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1u48ADGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1u48ATGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1u48AjGnEe2FoLK32lLlAA" name="id">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE4mgTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1u48AzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1u48BDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1u48BTGnEe2FoLK32lLlAA" name="cart">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE4mgjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1u48BjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1u48BzGnEe2FoLK32lLlAA" name="Map">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wDzocTGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1u48CDGnEe2FoLK32lLlAA" name="printOrderByUserId" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wE6bsDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1u48CTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1u48CjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1u48CzGnEe2FoLK32lLlAA" name="orderList">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE6bsTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1u48DDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1u48DTGnEe2FoLK32lLlAA" name="List">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wD2rwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1wzngDGnEe2FoLK32lLlAA" name="FailView">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wBKkIDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1wzngTGnEe2FoLK32lLlAA" position="1887.0,1996.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1wzngjGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_1wzngzGnEe2FoLK32lLlAA" name="errorMessage" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBLyQDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1wznhDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1wznhTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1wznhjGnEe2FoLK32lLlAA" name="message">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBLyQTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1wznhzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1wzniDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1y1n0DGnEe2FoLK32lLlAA" name="Goods">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wBcQ8DGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1y1n0TGnEe2FoLK32lLlAA" position="12.0,1655.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1y1n0jGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_1y1n0zGnEe2FoLK32lLlAA" name="goodsId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFecYDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1y1n1DGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1y1n1TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1y2O4DGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1y2O4TGnEe2FoLK32lLlAA" name="goodsName">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFecYTGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1y2O4jGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1y2O4zGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1y2O5DGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1y2O5TGnEe2FoLK32lLlAA" name="goodsPrice">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFfDcDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1y2O5jGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1y2O5zGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1y2O6DGnEe2FoLK32lLlAA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1y2O6TGnEe2FoLK32lLlAA" name="stock">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFfDcTGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1y2O6jGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1y2O6zGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1y2O7DGnEe2FoLK32lLlAA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1y2O7TGnEe2FoLK32lLlAA" name="regDate">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFfqgDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_1y2O7jGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFfqgTGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1y2O7zGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1y2O8DGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1y2O8TGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1y2O8jGnEe2FoLK32lLlAA" name="Goods">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBdfEDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_1y2O8zGnEe2FoLK32lLlAA" keyword="create"/>
+      <stereotypes xmi:id="_1y2O9DGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBeGITGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1y2O9TGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1y2O9jGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1y2O9zGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBeGIjGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1y2O-DGnEe2FoLK32lLlAA" name="Goods">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBcQ8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1y2O-TGnEe2FoLK32lLlAA" name="Goods">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBeGIzGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_1y2O-jGnEe2FoLK32lLlAA" keyword="create"/>
+      <visibility xmi:id="_1y2O-zGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1y2O_DGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1y2O_TGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBetNzGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1y2O_jGnEe2FoLK32lLlAA" name="Goods">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBcQ8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1y2O_zGnEe2FoLK32lLlAA" name="goodsId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBetMDGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1y2PADGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1y2PATGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1y2PAjGnEe2FoLK32lLlAA" name="goodsName">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBetMTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1y2PAzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1y2PBDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1y2PBTGnEe2FoLK32lLlAA" name="goodsPrice">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBetMjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1y2PBjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1y2PBzGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1y2PCDGnEe2FoLK32lLlAA" name="stock">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBetMzGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1y2PCTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1y2PCjGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1y2PCzGnEe2FoLK32lLlAA" name="regDate">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBetNDGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1y2PDDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1y2PDTGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1y2PDjGnEe2FoLK32lLlAA" name="toString">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBfUQDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_1y2PDzGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBf7UTGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1y2PEDGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBgiYDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1y2PETGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1y2PEjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1y2PEzGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBf7UDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1y2PFDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1y2PFTGnEe2FoLK32lLlAA" name="hashCode">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBgiYjGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_1y2PFjGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBhJcTGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1y2PFzGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBhwgDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1y2PGDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1y2PGTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1y2PGjGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBhJcDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1y2PGzGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1y2PHDGnEe2FoLK32lLlAA" name="equals">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFCXgDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_1y2PHTGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFC-kDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1y2PHjGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFC-kTGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1y2PHzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1y2PIDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1y2PITGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFCXgjGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1y2PIjGnEe2FoLK32lLlAA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1y2PIzGnEe2FoLK32lLlAA" name="obj">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFCXgTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1y2PJDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1y2PJTGnEe2FoLK32lLlAA" name="Object">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wE9fADGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_113tsDGnEe2FoLK32lLlAA" name="GoodsController" associationsOut="_10-V0DGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wABUoDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_113tsTGnEe2FoLK32lLlAA" position="1270.0,397.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_113tsjGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_113tszGnEe2FoLK32lLlAA" defaultValue="new GoodsService()" name="goodsService" staticAttribute="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFK6YjGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_113ttDGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFLhcDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_113ttTGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_113ttjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_113ttzGnEe2FoLK32lLlAA" name="GoodsService">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA6FcDGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_113tuDGnEe2FoLK32lLlAA" name="goodsSelect" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wACiwDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_113tuTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_113tujGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_16uYgDGnEe2FoLK32lLlAA" name="GoodsService" associationsIn="_1kQZQDGnEe2FoLK32lLlAA _10-V0DGnEe2FoLK32lLlAA" associationsOut="_12qX4DGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wA6FcDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_16uYgTGnEe2FoLK32lLlAA" position="1153.0,61.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_16uYgjGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_16uYgzGnEe2FoLK32lLlAA" defaultValue="new GoodsDAOImpl()" name="goodsDao">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFUrYDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_16uYhDGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_16uYhTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_16uYhjGnEe2FoLK32lLlAA" name="GoodsDAO">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAX58DGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_16uYhzGnEe2FoLK32lLlAA" name="goodsSelect">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wA6sgDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_16uYiDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_16uYiTGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_16uYijGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA6sgTGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_16uYizGnEe2FoLK32lLlAA" name="Goods">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBcQ8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_16uYjDGnEe2FoLK32lLlAA" name="goodsSelectBygoodsId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wA76oDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_16uYjTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_16uYjjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_16uYjzGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEPtUDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_16uYkDGnEe2FoLK32lLlAA" name="Goods">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBcQ8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_16uYkTGnEe2FoLK32lLlAA" name="goodsId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA76oTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_16uYkjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_16uYkzGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1962eTGnEe2FoLK32lLlAA" name="MenuView" associationsOut="_1962cDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wBMZUDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1962ejGnEe2FoLK32lLlAA" position="2001.0,892.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1962ezGnEe2FoLK32lLlAA" name="Patch">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_zJHzkDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <visibility xmi:id="_1962fDGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_1962fTGnEe2FoLK32lLlAA" defaultValue="new Scanner(System.in)" name="sc" staticAttribute="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFbZEDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_1962fjGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFcAIDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1962fzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962gDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1962gTGnEe2FoLK32lLlAA" name="Scanner">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEbTgDGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1962gjGnEe2FoLK32lLlAA" name="menu" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBNncDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962gzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962hDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1962hTGnEe2FoLK32lLlAA" name="printMenu" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBNncTGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962hjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962hzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1962iDGnEe2FoLK32lLlAA" name="printUserMenu" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBOOgDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962iTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962ijGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1962izGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBOOgTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1962jDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1962jTGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1962jjGnEe2FoLK32lLlAA" name="printSubMenu" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBOOgjGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962jzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962kDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1962kTGnEe2FoLK32lLlAA" name="printAdminMenu" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBOOgzGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962kjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962kzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1962lDGnEe2FoLK32lLlAA" comments="_18mn0DGnEe2FoLK32lLlAA" targetConnectionVisual="_19f_sDGnEe2FoLK32lLlAA" name="login" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBO1kDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962lTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962ljGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1962lzGnEe2FoLK32lLlAA" comments="_19hN0DGnEe2FoLK32lLlAA" targetConnectionVisual="_193MEDGnEe2FoLK32lLlAA" name="logout" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBO1kTGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962mDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962mTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1962mjGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBO1kjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1962mzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1962nDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1962nTGnEe2FoLK32lLlAA" comments="_193zIDGnEe2FoLK32lLlAA" targetConnectionVisual="_193zITGnEe2FoLK32lLlAA" name="printInputOrder" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBPcoDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962njGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962nzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1962oDGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBPcoTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1962oTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1962ojGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1962ozGnEe2FoLK32lLlAA" comments="_195BQDGnEe2FoLK32lLlAA" targetConnectionVisual="_195BQTGnEe2FoLK32lLlAA" name="putCart" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBQDsDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962pDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962pTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1962pjGnEe2FoLK32lLlAA" name="id">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBQDsTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1962pzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1962qDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1962qTGnEe2FoLK32lLlAA" comments="_195oUDGnEe2FoLK32lLlAA" targetConnectionVisual="_195oUTGnEe2FoLK32lLlAA" name="viewCart" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBQqwDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1962qjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1962qzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1962rDGnEe2FoLK32lLlAA" name="id">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBRR0DGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1962rTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1962rjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2AELgDGnEe2FoLK32lLlAA" name="MenuView" associationsOut="_1-znQDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wBkMwDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2AELgTGnEe2FoLK32lLlAA" position="805.0,1655.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2AELgjGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_2AELgzGnEe2FoLK32lLlAA" defaultValue="new Scanner(System.in)" name="sc" staticAttribute="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFiGwDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2AELhDGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFit0DGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2AELhTGnEe2FoLK32lLlAA" label="-"/>
+      <cardinality xmi:id="_2AELhjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2AELhzGnEe2FoLK32lLlAA" name="Scanner">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEbTgDGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2AELiDGnEe2FoLK32lLlAA" name="menu" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBla4DGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2AELiTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2AELijGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_2AELizGnEe2FoLK32lLlAA" name="printMenu" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBla4TGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2AELjDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2AELjTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_2AELjjGnEe2FoLK32lLlAA" name="printMenuForMember" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBla4jGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2AELjzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2AELkDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_2AELkTGnEe2FoLK32lLlAA" comments="_1__6EDGnEe2FoLK32lLlAA" targetConnectionVisual="_2AAhIDGnEe2FoLK32lLlAA" name="login" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBmB8DGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2AELkjGnEe2FoLK32lLlAA" label="-"/>
+      <cardinality xmi:id="_2AELkzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_2AELlDGnEe2FoLK32lLlAA" comments="_2AAhITGnEe2FoLK32lLlAA" targetConnectionVisual="_2AAhIjGnEe2FoLK32lLlAA" name="findId" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBmB8TGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2AELlTGnEe2FoLK32lLlAA" label="-"/>
+      <cardinality xmi:id="_2AELljGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_2AELlzGnEe2FoLK32lLlAA" comments="_2ABIMDGnEe2FoLK32lLlAA" targetConnectionVisual="_2ABIMTGnEe2FoLK32lLlAA" name="findPw" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBmB8jGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2AELmDGnEe2FoLK32lLlAA" label="-"/>
+      <cardinality xmi:id="_2AELmTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_2AELmjGnEe2FoLK32lLlAA" comments="_2ACWUDGnEe2FoLK32lLlAA" targetConnectionVisual="_2ACWUTGnEe2FoLK32lLlAA" name="register" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBmB8zGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2AELmzGnEe2FoLK32lLlAA" label="-"/>
+      <cardinality xmi:id="_2AELnDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_2AELnTGnEe2FoLK32lLlAA" name="printMenuForAdmin" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBmpADGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2AELnjGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBmpATGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2AELnzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2AELoDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_2AELoTGnEe2FoLK32lLlAA" name="printUserMenu" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBmpAjGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2AELojGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2AELozGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2AELpDGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBmpAzGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2AELpTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2AELpjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2CJPIDGnEe2FoLK32lLlAA" comments="_2A88UDGnEe2FoLK32lLlAA" targetConnectionVisual="_2BsjMDGnEe2FoLK32lLlAA" name="ModifyException">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wALssDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2CJPITGnEe2FoLK32lLlAA" position="1396.0,1998.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2CJPIjGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_2CJPIzGnEe2FoLK32lLlAA" name="ModifyException">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAMTwDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2CJPJDGnEe2FoLK32lLlAA" keyword="create"/>
+      <stereotypes xmi:id="_2CJPJTGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAM60jGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2CJPJjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2CJPJzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2CJPKDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAM60zGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2CJPKTGnEe2FoLK32lLlAA" name="ModifyException">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wALssDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2CJPKjGnEe2FoLK32lLlAA" name="ModifyException">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wANh4DGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2CJPKzGnEe2FoLK32lLlAA" keyword="create"/>
+      <visibility xmi:id="_2CJPLDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2CJPLTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2CJPLjGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAOI8jGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2CJPLzGnEe2FoLK32lLlAA" name="ModifyException">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wALssDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2CJPMDGnEe2FoLK32lLlAA" name="message">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wANh4TGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2CJPMTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2CJPMjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2EO50DGnEe2FoLK32lLlAA" comments="_2C9HcDGnEe2FoLK32lLlAA" targetConnectionVisual="_2DujgDGnEe2FoLK32lLlAA" name="NotFoundException">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wAOwADGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2EO50TGnEe2FoLK32lLlAA" position="869.0,1998.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2EO50jGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_2EO50zGnEe2FoLK32lLlAA" name="NotFoundException">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAPXEDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2EO51DGnEe2FoLK32lLlAA" keyword="create"/>
+      <stereotypes xmi:id="_2EO51TGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAP-IDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2EO51jGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2EO51zGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2EO52DGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAP-ITGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2EO52TGnEe2FoLK32lLlAA" name="NotFoundException">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAOwADGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2EO52jGnEe2FoLK32lLlAA" name="NotFoundException">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAQlMDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2EO52zGnEe2FoLK32lLlAA" keyword="create"/>
+      <visibility xmi:id="_2EO53DGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2EO53TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2EO53jGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAQlNDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2EO53zGnEe2FoLK32lLlAA" name="NotFoundException">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAOwADGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2EO54DGnEe2FoLK32lLlAA" name="message">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAQlMTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2EO54TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2EO54jGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2GZdCTGnEe2FoLK32lLlAA" name="OrderController" associationsOut="_2GZdADGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wADJ0DGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2GZdCjGnEe2FoLK32lLlAA" position="2150.0,698.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2GZdCzGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_2GZdDDGnEe2FoLK32lLlAA" defaultValue="new OrderService()" name="orderService" staticAttribute="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFLhcTGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2GZdDTGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFMIgTGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2GZdDjGnEe2FoLK32lLlAA" label="-"/>
+      <cardinality xmi:id="_2GZdDzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2GZdEDGnEe2FoLK32lLlAA" name="OrderService">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA-W4DGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2GZdETGnEe2FoLK32lLlAA" comments="_2FIRsDGnEe2FoLK32lLlAA" targetConnectionVisual="_2GWZsDGnEe2FoLK32lLlAA" name="selectOrdersByUserId" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAEX8DGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2GZdEjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2GZdEzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2GZdFDGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAEX8TGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2GZdFTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2GZdFjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2GZdFzGnEe2FoLK32lLlAA" comments="_2GXAwDGnEe2FoLK32lLlAA" targetConnectionVisual="_2GXn0DGnEe2FoLK32lLlAA" name="insertOrders" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wD5IADGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2GZdGDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2GZdGTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2GZdGjGnEe2FoLK32lLlAA" name="order">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wD5IATGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2GZdGzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2GZdHDGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_2IuYQDGnEe2FoLK32lLlAA" name="OrderDAO" associationsIn="_2HPxkDGnEe2FoLK32lLlAA" subclassedBy="_2LR9ADGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wAgc0DGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2IuYQTGnEe2FoLK32lLlAA" position="1462.0,349.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2IuYQjGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_2IuYQzGnEe2FoLK32lLlAA" name="selectOrdersByUserId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAhD4DGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2IuYRDGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_2IuYRTGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_2IuYRjGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAhD4jGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2IuYRzGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2IuYSDGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAhD4TGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2IuYSTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2IuYSjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2IuYSzGnEe2FoLK32lLlAA" name="orderInsert">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wEBD0DGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2IuYTDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2IuYTTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2IuYTjGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEBD0jGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2IuYTzGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2IuYUDGnEe2FoLK32lLlAA" name="order">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEBD0TGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2IuYUTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2IuYUjGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2PfuozGnEe2FoLK32lLlAA" name="OrderLine" associationsIn="_2N2v4DGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wAt4MTGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2PfupDGnEe2FoLK32lLlAA" position="11.0,900.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2PfupTGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_2PfupjGnEe2FoLK32lLlAA" name="orderLineId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFPL0DGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2PfupzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2PfuqDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2PfuqTGnEe2FoLK32lLlAA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2PfuqjGnEe2FoLK32lLlAA" name="orderId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFPy4DGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2PfuqzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2PfurDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2PfurTGnEe2FoLK32lLlAA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2PfurjGnEe2FoLK32lLlAA" name="goodsId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFPy4TGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2PfurzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2PfusDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2PfusTGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2PfusjGnEe2FoLK32lLlAA" name="unitPrice">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFQZ8DGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2PfuszGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2PfutDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2PfutTGnEe2FoLK32lLlAA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2PfutjGnEe2FoLK32lLlAA" name="qty">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFQZ8TGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2PfutzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2PfuuDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2PfuuTGnEe2FoLK32lLlAA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2PfuujGnEe2FoLK32lLlAA" name="amount">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFQZ8jGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2PfuuzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2PfuvDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2PfuvTGnEe2FoLK32lLlAA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2PfuvjGnEe2FoLK32lLlAA" name="OrderLine">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAvGUDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2PfuvzGnEe2FoLK32lLlAA" keyword="create"/>
+      <stereotypes xmi:id="_2PfuwDGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAvtYDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2PfuwTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2PfuwjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2PfuwzGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAvtYTGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2PfuxDGnEe2FoLK32lLlAA" name="OrderLine">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAt4MTGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2PfuxTGnEe2FoLK32lLlAA" name="OrderLine">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAvtYjGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2PfuxjGnEe2FoLK32lLlAA" keyword="create"/>
+      <visibility xmi:id="_2PfuxzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2PfuyDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2PfuyTGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAwUeDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2PfuyjGnEe2FoLK32lLlAA" name="OrderLine">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAt4MTGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2PfuyzGnEe2FoLK32lLlAA" name="orderLineId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAwUcDGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2PfuzDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2PfuzTGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2PfuzjGnEe2FoLK32lLlAA" name="orderId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAwUcTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2PfuzzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2Pfu0DGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2Pfu0TGnEe2FoLK32lLlAA" name="goodsId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAwUcjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2Pfu0jGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2Pfu0zGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2Pfu1DGnEe2FoLK32lLlAA" name="unitPrice">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAwUczGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2Pfu1TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2Pfu1jGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2Pfu1zGnEe2FoLK32lLlAA" name="qty">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAwUdDGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2Pfu2DGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2Pfu2TGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2Pfu2jGnEe2FoLK32lLlAA" name="amount">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAwUdTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2Pfu2zGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2Pfu3DGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2Pfu3TGnEe2FoLK32lLlAA" name="toString">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAw7gDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2Pfu3jGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAyJoDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_2Pfu3zGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAyJoTGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2Pfu4DGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2Pfu4TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2Pfu4jGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAxikDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2Pfu4zGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2RTFcDGnEe2FoLK32lLlAA" name="Orders" associationsOut="_2N2v4DGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2RTFcTGnEe2FoLK32lLlAA" position="39.0,1391.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2RTFcjGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_2RTFczGnEe2FoLK32lLlAA" name="orderId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFRBADGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2RTFdDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2RTFdTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2RTFdjGnEe2FoLK32lLlAA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2RTFdzGnEe2FoLK32lLlAA" name="orderDate">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFRoEDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2RTFeDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2RTFeTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2RTFejGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2RTFezGnEe2FoLK32lLlAA" name="userId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFRoETGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2RTFfDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2RTFfTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2RTFfjGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2RTFfzGnEe2FoLK32lLlAA" name="address">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFRoEjGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2RTFgDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2RTFgTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2RTFgjGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2RTFgzGnEe2FoLK32lLlAA" name="totalAmount">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFSPIDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2RTFhDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2RTFhTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2RTFhjGnEe2FoLK32lLlAA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2RTFhzGnEe2FoLK32lLlAA" defaultValue="new ArrayList&lt;OrderLine>()" name="orderLineList">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFSPITGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2RTFiDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2RTFiTGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_2RTFijGnEe2FoLK32lLlAA" name="OrderLine">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAt4MTGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2RTFizGnEe2FoLK32lLlAA" name="Orders">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wA0l4DGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2RTFjDGnEe2FoLK32lLlAA" keyword="create"/>
+      <stereotypes xmi:id="_2RTFjTGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA0l4zGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2RTFjjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2RTFjzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2RTFkDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA0l5DGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2RTFkTGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2RTFkjGnEe2FoLK32lLlAA" name="Orders">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wA1M8DGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2RTFkzGnEe2FoLK32lLlAA" keyword="create"/>
+      <visibility xmi:id="_2RTFlDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2RTFlTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2RTFljGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA10AjGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2RTFlzGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2RTFmDGnEe2FoLK32lLlAA" name="orderId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA1M8TGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2RTFmTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2RTFmjGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2RTFmzGnEe2FoLK32lLlAA" name="orderDate">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA1M8jGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2RTFnDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2RTFnTGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2RTFnjGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA1M8zGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2RTFnzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2RTFoDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2RTFoTGnEe2FoLK32lLlAA" name="address">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA1M9DGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2RTFojGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2RTFozGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2RTFpDGnEe2FoLK32lLlAA" name="totalAmount">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA1M9TGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2RTFpTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2RTFpjGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2U7BMDGnEe2FoLK32lLlAA" name="OrderService" associationsIn="_2GZdADGnEe2FoLK32lLlAA" associationsOut="_2HPxkDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wA-W4DGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2U7BMTGnEe2FoLK32lLlAA" position="2112.0,360.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2U7BMjGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_2U7BMzGnEe2FoLK32lLlAA" defaultValue="new OrderDAOImpl()" name="orderDao">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFV5gDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2U7BNDGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_2U7BNTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2U7BNjGnEe2FoLK32lLlAA" name="OrderDAO">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAgc0DGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2U7BNzGnEe2FoLK32lLlAA" name="selectOrdersByUserId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wA-98DGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2U7BODGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2U7BOTGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_2U7BOjGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA_lATGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2U7BOzGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2U7BPDGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wA_lADGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2U7BPTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2U7BPjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2U7BPzGnEe2FoLK32lLlAA" name="insertOrders">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wERigDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2U7BQDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2U7BQTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2U7BQjGnEe2FoLK32lLlAA" name="orders">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wESJkDGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2U7BQzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2U7BRDGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2a67gDGnEe2FoLK32lLlAA" comments="_2YboMDGnEe2FoLK32lLlAA" targetConnectionVisual="_2aLUoDGnEe2FoLK32lLlAA" name="Session" associationsIn="_2eDvEDGnEe2FoLK32lLlAA" associationsOut="_2a3RIDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wBSf8DGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2a67gTGnEe2FoLK32lLlAA" position="20.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2a67gjGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_2a67gzGnEe2FoLK32lLlAA" name="sessionId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFcnMDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2a67hDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a67hTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2a67hjGnEe2FoLK32lLlAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2a67hzGnEe2FoLK32lLlAA" name="attributes">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFdOQDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2a67iDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a67iTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2a67ijGnEe2FoLK32lLlAA" name="Object">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE9fADGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2a67izGnEe2FoLK32lLlAA" name="Session">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBTuEDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2a67jDGnEe2FoLK32lLlAA" keyword="create"/>
+      <stereotypes xmi:id="_2a67jTGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBUVIDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2a67jjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a67jzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2a67kDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBUVITGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2a67kTGnEe2FoLK32lLlAA" name="Session">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBSf8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2a67kjGnEe2FoLK32lLlAA" name="Session">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBU8MDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2a67kzGnEe2FoLK32lLlAA" keyword="create"/>
+      <visibility xmi:id="_2a67lDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a67lTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2a67ljGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBU8NDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2a67lzGnEe2FoLK32lLlAA" name="Session">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBSf8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2a67mDGnEe2FoLK32lLlAA" name="sessionId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBU8MTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2a67mTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2a67mjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2a67mzGnEe2FoLK32lLlAA" name="getAttribute">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBVjQDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2a67nDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a67nTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2a67njGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE_UMDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2a67nzGnEe2FoLK32lLlAA" name="Object">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wE9fADGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2a67oDGnEe2FoLK32lLlAA" name="name">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBVjQTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2a67oTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2a7ikDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2a7ikTGnEe2FoLK32lLlAA" name="removeAttribute">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBWKUDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2a7ikjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a7ikzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2a7ilDGnEe2FoLK32lLlAA" name="name">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBWKUTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2a7ilTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2a7iljGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2a7ilzGnEe2FoLK32lLlAA" name="toString">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBWxYDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2a7imDGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBXYcTGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_2a7imTGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBXYcjGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2a7imjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a7imzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2a7inDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBXYcDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2a7inTGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2a7injGnEe2FoLK32lLlAA" name="hashCode">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBX_gTGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2a7inzGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBYmkDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_2a7ioDGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBYmkTGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2a7ioTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a7iojGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2a7iozGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBX_gjGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2a7ipDGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2a7ipTGnEe2FoLK32lLlAA" name="setAttribute">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wE-GEDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2a7ipjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a7ipzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2a7iqDGnEe2FoLK32lLlAA" name="name">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE-tIDGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2a7iqTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2a7iqjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2a7iqzGnEe2FoLK32lLlAA" name="value">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE-tITGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2a7irDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2a7irTGnEe2FoLK32lLlAA" name="Object">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wE9fADGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2a7irjGnEe2FoLK32lLlAA" name="equals">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wE_7QDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2a7irzGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFAiUDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_2a7isDGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFAiUTGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2a7isTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2a7isjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2a7iszGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE_7QjGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2a7itDGnEe2FoLK32lLlAA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2a7itTGnEe2FoLK32lLlAA" name="obj">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE_7QTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2a7itjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2a7itzGnEe2FoLK32lLlAA" name="Object">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wE9fADGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2f13wDGnEe2FoLK32lLlAA" name="SessionSet" associationsIn="_2cQYQDGnEe2FoLK32lLlAA" associationsOut="_2cQYQDGnEe2FoLK32lLlAA _2eDvEDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wBCoUDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2f13wTGnEe2FoLK32lLlAA" position="49.0,548.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_2f13wjGnEe2FoLK32lLlAA" name="Patch">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_zJGlcDGnEe2FoLK32lLlAA"/>
+    </stereotypes>
+    <visibility xmi:id="_2f13wzGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_2f13xDGnEe2FoLK32lLlAA" defaultValue="new SessionSet()" name="ss" staticAttribute="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFXHoDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2f13xTGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFXusDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2f13xjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2f13xzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2f13yDGnEe2FoLK32lLlAA" name="SessionSet">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBCoUDGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2f13yTGnEe2FoLK32lLlAA" name="set">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFYVwDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2f13yjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2f13yzGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_2f13zDGnEe2FoLK32lLlAA" name="Session">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBSf8DGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2f13zTGnEe2FoLK32lLlAA" name="SessionSet">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBDPYDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_2f13zjGnEe2FoLK32lLlAA" keyword="create"/>
+      <visibility xmi:id="_2f13zzGnEe2FoLK32lLlAA" label="-"/>
+      <cardinality xmi:id="_2f130DGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2f130TGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBD2cTGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2f130jGnEe2FoLK32lLlAA" name="SessionSet">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBCoUDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2f130zGnEe2FoLK32lLlAA" name="getInstance" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBD2cjGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2f131DGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2f131TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2f131jGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEVM4TGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2f131zGnEe2FoLK32lLlAA" name="SessionSet">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBCoUDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2f132DGnEe2FoLK32lLlAA" comments="_2eGLUDGnEe2FoLK32lLlAA" targetConnectionVisual="_2fD0oDGnEe2FoLK32lLlAA" name="get">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBEdgDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2f132TGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2f132jGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2f132zGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEVz8DGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2f133DGnEe2FoLK32lLlAA" name="Session">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBSf8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2f133TGnEe2FoLK32lLlAA" name="sessionId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBEdgTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2f133jGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2f133zGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2f134DGnEe2FoLK32lLlAA" comments="_2fEbsDGnEe2FoLK32lLlAA" targetConnectionVisual="_2fFCwDGnEe2FoLK32lLlAA" name="add">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wEVz8TGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2f134TGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2f134jGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2f134zGnEe2FoLK32lLlAA" name="session">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEVz8jGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2f135DGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2f135TGnEe2FoLK32lLlAA" name="Session">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBSf8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2f135jGnEe2FoLK32lLlAA" comments="_2fFCwTGnEe2FoLK32lLlAA" targetConnectionVisual="_2f0CkDGnEe2FoLK32lLlAA" name="remove">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wEWbADGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2f135zGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2f136DGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2f136TGnEe2FoLK32lLlAA" name="session">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEWbATGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2f136jGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2f136zGnEe2FoLK32lLlAA" name="Session">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBSf8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2hCKkDGnEe2FoLK32lLlAA" name="StartView">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wBBaMDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2hCKkTGnEe2FoLK32lLlAA" position="2227.0,1996.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2hCKkjGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_2hCKkzGnEe2FoLK32lLlAA" name="main" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBCBQDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2hCKlDGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2hCKlTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2hCKljGnEe2FoLK32lLlAA" name="args">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBCBQTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2hCKlzGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_2hCKmDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2MEAIDGnEe2FoLK32lLlAA" name="OrderDAOImpl" associationsOut="_2JnwIDGnEe2FoLK32lLlAA" generalizations="_2LR9ADGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wAiSADGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_2MEnMDGnEe2FoLK32lLlAA" position="969.0,554.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2MEnMTGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_2MEnMjGnEe2FoLK32lLlAA" defaultValue="new GoodsDAOImpl()" name="goodsDao">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFMvkDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2MEnMzGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFMvkjGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2MEnNDGnEe2FoLK32lLlAA" label="~"/>
+      <cardinality xmi:id="_2MEnNTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_2MEnNjGnEe2FoLK32lLlAA" name="GoodsDAO">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAX58DGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2MEnNzGnEe2FoLK32lLlAA" name="selectOrdersByUserId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAkHMDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2MEnODGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2MEnOTGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_2MEnOjGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAkHMjGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2MEnOzGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2MEnPDGnEe2FoLK32lLlAA" name="userId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAkHMTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2MEnPTGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2MEnPjGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2MEnPzGnEe2FoLK32lLlAA" name="orderInsert">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wEDgEDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2MEnQDGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEEHITGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_2MEnQTGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEEuMDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2MEnQjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2MEnQzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2MEnRDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEEHIDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2MEnRTGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2MEnRjGnEe2FoLK32lLlAA" name="order">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEDgETGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2MEnRzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2MEnSDGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2MEnSTGnEe2FoLK32lLlAA" name="getTotalAmount">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wEFVQDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2MEnSjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2MEnSzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2MEnTDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEGjYDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2MEnTTGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2MEnTjGnEe2FoLK32lLlAA" name="order">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEF8UDGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2MEnTzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2MEnUDGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2MEnUTGnEe2FoLK32lLlAA" name="orderLineInsert">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wEtAUDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2MEnUjGnEe2FoLK32lLlAA" name="Array">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEtnZDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2MEnUzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2MEnVDGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_2MEnVTGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEtnYjGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2MEnVjGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2MEnVzGnEe2FoLK32lLlAA" name="con">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEtnYDGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2MEnWDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2MEnWTGnEe2FoLK32lLlAA" name="Connection">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wD69MDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2MEnWjGnEe2FoLK32lLlAA" name="order">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEtnYTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2MEnWzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2MEnXDGnEe2FoLK32lLlAA" name="Orders">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAzXwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2MEnXTGnEe2FoLK32lLlAA" name="decrementStock">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wEuOcDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_2MEnXjGnEe2FoLK32lLlAA" name="Array">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEu1gDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2MEnXzGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2MEnYDGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_2MEnYTGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEuOczGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2MEnYjGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2MEnYzGnEe2FoLK32lLlAA" name="con">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEuOcTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2MEnZDGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2MEnZTGnEe2FoLK32lLlAA" name="Connection">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wD69MDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2MEnZjGnEe2FoLK32lLlAA" name="orderLineList">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEuOcjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2MEnZzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2MEnaDGnEe2FoLK32lLlAA" name="List">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wD2rwDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2MEnaTGnEe2FoLK32lLlAA" name="selectOrderLine">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wEwqsDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_2MEnajGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_2MEnazGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_2MEnbDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEwqszGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_2MEnbTGnEe2FoLK32lLlAA" name="OrderLine">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wAt4MTGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2MEnbjGnEe2FoLK32lLlAA" name="con">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEwqsTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2MEnbzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2MEncDGnEe2FoLK32lLlAA" name="Connection">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wD69MDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2MEncTGnEe2FoLK32lLlAA" name="orderId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEwqsjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_2MEncjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2MEnczGnEe2FoLK32lLlAA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1sHUwDGnEe2FoLK32lLlAA" name="DbUtil" associationsOut="_1rb_UDGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wBGSsDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_1sHUwTGnEe2FoLK32lLlAA" position="22.0,1997.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1sHUwjGnEe2FoLK32lLlAA" label="+"/>
+    <attributes xmi:id="_1sHUwzGnEe2FoLK32lLlAA" defaultValue="new Properties()" name="proFile" staticAttribute="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wFZj4DGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_1sH70DGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wFZj4TGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1sH70TGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1sH70jGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1sH70zGnEe2FoLK32lLlAA" name="Properties">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wEYQMTGnEe2FoLK32lLlAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1sH71DGnEe2FoLK32lLlAA" name="_initializer1" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBG5wDGnEe2FoLK32lLlAA"/>
+      <keywords xmi:id="_1sH71TGnEe2FoLK32lLlAA" keyword="init"/>
+      <stereotypes xmi:id="_1sH71jGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wBHg0DGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1sH71zGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1sH72DGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1sH72TGnEe2FoLK32lLlAA" name="getConnection" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wBHg0TGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1sH72jGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1sH72zGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1sH73DGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE1jMDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_1sH73TGnEe2FoLK32lLlAA" name="Connection">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wD69MDGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1sH73jGnEe2FoLK32lLlAA" name="close" staticOperation="true">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wE1jMTGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_1sH73zGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_1sH74DGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1sH74TGnEe2FoLK32lLlAA" name="con">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE2KQDGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1sH74jGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1sH74zGnEe2FoLK32lLlAA" name="Connection">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wD69MDGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1sH75DGnEe2FoLK32lLlAA" name="st">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE2KQTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1sH75TGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1sH75jGnEe2FoLK32lLlAA" name="Statement">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wECR8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1sH75zGnEe2FoLK32lLlAA" name="rs">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wE2KQjGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_1sH76DGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1sH76TGnEe2FoLK32lLlAA" name="ResultSet">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wD8LUTGnEe2FoLK32lLlAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_13yZQTGnEe2FoLK32lLlAA" name="GoodsDAO" associationsIn="_12qX4DGnEe2FoLK32lLlAA _2JnwIDGnEe2FoLK32lLlAA" subclassedBy="_14p78DGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wAX58DGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_13yZQjGnEe2FoLK32lLlAA" position="404.0,37.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_13yZQzGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_13yZRDGnEe2FoLK32lLlAA" name="goodsSelect">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAYhADGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_13yZRTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_13yZRjGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_13yZRzGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAYhATGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_13yZSDGnEe2FoLK32lLlAA" name="Goods">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBcQ8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_13yZSTGnEe2FoLK32lLlAA" name="goodsSelectBygoodsId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAZIEDGnEe2FoLK32lLlAA"/>
+      <visibility xmi:id="_13yZSjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_13yZSzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_13yZTDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wD-AgDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_13yZTTGnEe2FoLK32lLlAA" name="Goods">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBcQ8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_13yZTjGnEe2FoLK32lLlAA" name="goodsId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAZIETGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_13yZTzGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_13yZUDGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_15fpcDGnEe2FoLK32lLlAA" name="GoodsDAOImpl" generalizations="_14p78DGnEe2FoLK32lLlAA">
+    <modelElement href="../step12_goods_orderJDBC2.uml#_wAa9QDGnEe2FoLK32lLlAA"/>
+    <visualProperties xmi:id="_15fpcTGnEe2FoLK32lLlAA" position="466.0,509.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_15fpcjGnEe2FoLK32lLlAA" label="+"/>
+    <operations xmi:id="_15fpczGnEe2FoLK32lLlAA" name="goodsSelect">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAbkUDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_15fpdDGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAcycDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_15fpdTGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAdZgDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_15fpdjGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_15fpdzGnEe2FoLK32lLlAA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_15fpeDGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAcLYDGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_15fpeTGnEe2FoLK32lLlAA" name="Goods">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBcQ8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_15fpejGnEe2FoLK32lLlAA" name="goodsSelectBygoodsId">
+      <modelElement href="../step12_goods_orderJDBC2.uml#_wAeAkDGnEe2FoLK32lLlAA"/>
+      <stereotypes xmi:id="_15fpezGnEe2FoLK32lLlAA" name="LegacyStyledElement">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAenoDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_15fpfDGnEe2FoLK32lLlAA" name="Annotations">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAfOsDGnEe2FoLK32lLlAA"/>
+      </stereotypes>
+      <visibility xmi:id="_15fpfTGnEe2FoLK32lLlAA" label="+"/>
+      <cardinality xmi:id="_15fpfjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_15fpfzGnEe2FoLK32lLlAA">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wD_1sTGnEe2FoLK32lLlAA"/>
+        <type xmi:id="_15fpgDGnEe2FoLK32lLlAA" name="Goods">
+          <modelElement href="../step12_goods_orderJDBC2.uml#_wBcQ8DGnEe2FoLK32lLlAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_15fpgTGnEe2FoLK32lLlAA" name="goodsId">
+        <modelElement href="../step12_goods_orderJDBC2.uml#_wAeAkTGnEe2FoLK32lLlAA"/>
+        <cardinality xmi:id="_15fpgjGnEe2FoLK32lLlAA" label="1" max="1" min="1"/>
+        <type xmi:id="_15fpgzGnEe2FoLK32lLlAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
