@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_JSkW8DGoEe2FoLK32lLlAA" name="model">
+    <eAnnotations xmi:id="_JeAx8DGoEe2FoLK32lLlAA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_JeAx8TGoEe2FoLK32lLlAA" source="codegen">
+        <details xmi:id="_JeAx8jGoEe2FoLK32lLlAA" key="codegenDirectory" value="/step11_MVCDBBoard/src"/>
+        <details xmi:id="_J0sMkDGoEe2FoLK32lLlAA" key="AssociatedSourceCode" value="/step11_MVCDBBoard/src/kosta/mvc/controller/BoardController.java;2031013461/1;/step11_MVCDBBoard/src/kosta/mvc/dao/BoardDAO.java;1085686839/1;/step11_MVCDBBoard/src/kosta/mvc/dao/BoardDAOImpl.java;1535860916/1;/step11_MVCDBBoard/src/kosta/mvc/dto/BoardDTO.java;840799996/1;/step11_MVCDBBoard/src/kosta/mvc/dto/ReplyDTO.java;7167956/1;/step11_MVCDBBoard/src/kosta/mvc/service/BoardService.java;2695086919/1;/step11_MVCDBBoard/src/kosta/mvc/service/BoardServiceImpl.java;1596920393/1;/step11_MVCDBBoard/src/kosta/mvc/view/FailView.java;3648776519/1;/step11_MVCDBBoard/src/kosta/mvc/view/MainApp.java;500016221/1;/step11_MVCDBBoard/src/kosta/mvc/view/MenuView.java;3434733321/1;/step11_MVCDBBoard/src/kosta/mvc/view/SuccessView.java;3207433988/1;/step11_MVCDBBoard/src/kosta/util/DbProperties.java;1296035666/1;/step11_MVCDBBoard/src/kosta/util/DbUtil.java;1252113440/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_JpuSsDGoEe2FoLK32lLlAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_JpuSsTGoEe2FoLK32lLlAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_JpuSsjGoEe2FoLK32lLlAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_JpuSszGoEe2FoLK32lLlAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_JpuStDGoEe2FoLK32lLlAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_JpuStTGoEe2FoLK32lLlAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_Jpu5wDGoEe2FoLK32lLlAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Jpu5wTGoEe2FoLK32lLlAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Jpu5wjGoEe2FoLK32lLlAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JoKMcDGoEe2FoLK32lLlAA" name="kosta">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JoKzgDGoEe2FoLK32lLlAA" name="mvc">
+        <packagedElement xmi:type="uml:Package" xmi:id="_JoLakzGoEe2FoLK32lLlAA" name="dto">
+          <packagedElement xmi:type="uml:Class" xmi:id="_JqQeMDGoEe2FoLK32lLlAA" name="BoardDTO">
+            <ownedAttribute xmi:id="_Ju3RYDGoEe2FoLK32lLlAA" name="boardNo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Ju34cDGoEe2FoLK32lLlAA" name="subject">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Ju34cTGoEe2FoLK32lLlAA" name="writer">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Ju4fgDGoEe2FoLK32lLlAA" name="content">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Ju4fgTGoEe2FoLK32lLlAA" name="boardDate">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Ju4fgjGoEe2FoLK32lLlAA" name="repliesList" type="_JqZoIDGoEe2FoLK32lLlAA" isOrdered="true" association="_JveVYzGoEe2FoLK32lLlAA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ju4fgzGoEe2FoLK32lLlAA" value="*"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvTWSDGoEe2FoLK32lLlAA" name="BoardDTO" specification="_JqUvoDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvTWSTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvTWSjGoEe2FoLK32lLlAA" name="subject">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvTWSzGoEe2FoLK32lLlAA" name="writer">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvTWTDGoEe2FoLK32lLlAA" name="content">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvTWTTGoEe2FoLK32lLlAA" name="boardDate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvTWTjGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.boardNo = boardNo;&#xD;
+		this.subject = subject;&#xD;
+		this.writer = writer;&#xD;
+		this.content = content;&#xD;
+		this.boardDate = boardDate;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvT9UDGoEe2FoLK32lLlAA" name="toString" specification="_JqV9wDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvT9UTGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return boardNo + &quot; | &quot; + writer + &quot;|&quot; + subject + &quot;|&quot; + &quot;|&quot; + content + &quot;|&quot; + boardDate;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_JqS6cDGoEe2FoLK32lLlAA" name="BoardDTO">
+              <eAnnotations xmi:id="_JqThgDGoEe2FoLK32lLlAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_JqThgTGoEe2FoLK32lLlAA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_JqThgzGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqUvoDGoEe2FoLK32lLlAA" name="BoardDTO" method="_JvTWSDGoEe2FoLK32lLlAA">
+              <eAnnotations xmi:id="_JqVWtDGoEe2FoLK32lLlAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_JqVWtTGoEe2FoLK32lLlAA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_JqUvoTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqVWsDGoEe2FoLK32lLlAA" name="subject">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqVWsTGoEe2FoLK32lLlAA" name="writer">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqVWsjGoEe2FoLK32lLlAA" name="content">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqVWszGoEe2FoLK32lLlAA" name="boardDate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqVWtjGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqV9wDGoEe2FoLK32lLlAA" name="toString" method="_JvT9UDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JqV9wTGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_JqZoIDGoEe2FoLK32lLlAA" name="ReplyDTO">
+            <ownedComment xmi:id="_JvaD8TGoEe2FoLK32lLlAA">
+              <body>댓글의 정보=속성 관리하는 객체 &#xD;
+ *</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_JvLacDGoEe2FoLK32lLlAA" name="replyNo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_JvMBgDGoEe2FoLK32lLlAA" name="replyContent">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_JvMBgTGoEe2FoLK32lLlAA" name="boardNo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_JvMokDGoEe2FoLK32lLlAA" name="replyRegdate">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvT9UjGoEe2FoLK32lLlAA" name="ReplyDTO" specification="_JqbdUTGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvT9UzGoEe2FoLK32lLlAA" name="replyContent">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvT9VDGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvT9VTGoEe2FoLK32lLlAA" type="_JqZoIDGoEe2FoLK32lLlAA" direction="return"/>
+              <language>java</language>
+              <body>//댓글내용 , 부모글의 글번호&#xD;
+		this.replyContent = replyContent;&#xD;
+		this.boardNo = boardNo;&#xD;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvT9VjGoEe2FoLK32lLlAA" name="ReplyDTO" specification="_JqdSgDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvT9VzGoEe2FoLK32lLlAA" name="replyNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvT9WDGoEe2FoLK32lLlAA" name="replyContent">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvT9WTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvT9WjGoEe2FoLK32lLlAA" name="replyRegdate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvT9WzGoEe2FoLK32lLlAA" type="_JqZoIDGoEe2FoLK32lLlAA" direction="return"/>
+              <language>java</language>
+              <body>this(replyContent, boardNo);&#xD;
+	&#xD;
+	this.replyNo = replyNo;&#xD;
+	this.replyRegdate = replyRegdate;&#xD;
+  </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvUkYDGoEe2FoLK32lLlAA" name="toString" specification="_Jqd5kTGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvUkYTGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>StringBuilder builder = new StringBuilder();&#xD;
+		builder.append(&quot;ReplyDTO [replyNo=&quot;);&#xD;
+		builder.append(replyNo);&#xD;
+		builder.append(&quot;, replyContent=&quot;);&#xD;
+		builder.append(replyContent);&#xD;
+		builder.append(&quot;, boardNo=&quot;);&#xD;
+		builder.append(boardNo);&#xD;
+		builder.append(&quot;, replyRegdate=&quot;);&#xD;
+		builder.append(replyRegdate);&#xD;
+		builder.append(&quot;]&quot;);&#xD;
+		return builder.toString();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_Jqa2QDGoEe2FoLK32lLlAA" name="ReplyDTO">
+              <eAnnotations xmi:id="_Jqa2QTGoEe2FoLK32lLlAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_Jqa2QjGoEe2FoLK32lLlAA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_JqbdUDGoEe2FoLK32lLlAA" type="_JqZoIDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqbdUTGoEe2FoLK32lLlAA" name="ReplyDTO" method="_JvT9UjGoEe2FoLK32lLlAA">
+              <eAnnotations xmi:id="_JqcrcTGoEe2FoLK32lLlAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_JqcrcjGoEe2FoLK32lLlAA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_JqcEYDGoEe2FoLK32lLlAA" name="replyContent">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqcrcDGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqcrczGoEe2FoLK32lLlAA" type="_JqZoIDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqdSgDGoEe2FoLK32lLlAA" name="ReplyDTO" method="_JvT9VjGoEe2FoLK32lLlAA">
+              <eAnnotations xmi:id="_JqdShTGoEe2FoLK32lLlAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_JqdShjGoEe2FoLK32lLlAA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_JqdSgTGoEe2FoLK32lLlAA" name="replyNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqdSgjGoEe2FoLK32lLlAA" name="replyContent">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqdSgzGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqdShDGoEe2FoLK32lLlAA" name="replyRegdate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Jqd5kDGoEe2FoLK32lLlAA" type="_JqZoIDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jqd5kTGoEe2FoLK32lLlAA" name="toString" method="_JvUkYDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JqegoDGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_JveVYzGoEe2FoLK32lLlAA" name="" memberEnd="_JveVZDGoEe2FoLK32lLlAA _Ju4fgjGoEe2FoLK32lLlAA">
+            <ownedEnd xmi:id="_JveVZDGoEe2FoLK32lLlAA" name="" type="_JqQeMDGoEe2FoLK32lLlAA" association="_JveVYzGoEe2FoLK32lLlAA"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_JoMBoDGoEe2FoLK32lLlAA" name="service">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_JqgV0DGoEe2FoLK32lLlAA" name="BoardService">
+            <ownedOperation xmi:id="_Jqg84DGoEe2FoLK32lLlAA" name="boardSelectAll" visibility="package" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jqhj8DGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jqhj8TGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqiyEDGoEe2FoLK32lLlAA" name="boardSelectBySubject" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JqiyETGoEe2FoLK32lLlAA" name="keyWord">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqiyEjGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JqjZIDGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqkAMDGoEe2FoLK32lLlAA" name="boardSelectByNo" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JqkAMTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JuPmUDGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqlOUDGoEe2FoLK32lLlAA" name="boardDelete" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jql1YDGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jqo4sDGoEe2FoLK32lLlAA" name="replySelectByParentNo" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jqo4sTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JuTQsDGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JuQNYDGoEe2FoLK32lLlAA" name="boardInsert" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JuQNYTGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JuRbgDGoEe2FoLK32lLlAA" name="boardUpdate" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JuRbgTGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JuSpoDGoEe2FoLK32lLlAA" name="replyInsert" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JuSpoTGoEe2FoLK32lLlAA" name="replyDTO" type="_JqZoIDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_JqtxMDGoEe2FoLK32lLlAA" name="BoardServiceImpl">
+            <ownedAttribute xmi:id="_JvMokTGoEe2FoLK32lLlAA" name="boardDAO" visibility="private" type="_Jp1AYDGoEe2FoLK32lLlAA" association="_Jve8cTGoEe2FoLK32lLlAA">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_JvMokjGoEe2FoLK32lLlAA" value="new BoardDAOImpl()"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_JuVF4DGoEe2FoLK32lLlAA" client="_JqtxMDGoEe2FoLK32lLlAA" supplier="_JqgV0DGoEe2FoLK32lLlAA" contract="_JqgV0DGoEe2FoLK32lLlAA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvUkYjGoEe2FoLK32lLlAA" name="boardSelectAll" specification="_JquYQDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvUkYzGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvUkZDGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>List&lt;BoardDTO> list = boardDAO.boardSelectAll();&#xD;
+		if(list.size()==0 || list.isEmpty())&#xD;
+			throw new SQLException(&quot;게시물 정보가 없습니다^^&quot;); //예외가 발생하면 Controller의 catch블럭이동&#xD;
+		&#xD;
+		return list;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvUkZTGoEe2FoLK32lLlAA" name="boardSelectBySubject" specification="_Jqw0gDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvUkZjGoEe2FoLK32lLlAA" name="keyWord">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvUkZzGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvUkaDGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>List&lt;BoardDTO> list = boardDAO.boardSelectBySubject(keyWord);&#xD;
+		if(list.size()==0 || list.isEmpty())&#xD;
+			throw new SQLException(&quot;제목에 &quot;+keyWord+&quot;를 포함한 정보가 없습니다.&quot;);&#xD;
+		return list;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvVLcDGoEe2FoLK32lLlAA" name="boardSelectByNo" specification="_JqypsDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvVLcTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvVLcjGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+              <language>java</language>
+              <body>BoardDTO boardDTO = boardDAO.boardSelectByNo(boardNo);&#xD;
+		if(boardDTO==null)throw new SQLException(boardNo+&quot;에 해당하는 게시물이 없습니다.&quot;); //예외발생하면 controller의 catch블럭으로이동&#xD;
+		return boardDTO;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvVLczGoEe2FoLK32lLlAA" name="boardInsert" specification="_JuW7EDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvVLdDGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <language>java</language>
+              <body>if(boardDAO.boardInsert(boardDTO)==0)&#xD;
+			throw new SQLException(&quot;게시물이 등록되지 않았습니다.&quot;);//예외발생하면 controller의 catch블럭으로이동&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvVLdTGoEe2FoLK32lLlAA" name="boardUpdate" specification="_JuYwQDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvVLdjGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <language>java</language>
+              <body>if( boardDAO.boardUpdate(boardDTO) == 0 ) &#xD;
+			throw new SQLException(&quot;수정되지않았습니다.&quot;);//예외발생하면 controller의 catch블럭으로이동&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvVLdzGoEe2FoLK32lLlAA" name="boardDelete" specification="_Jq0e4DGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvVLeDGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if( boardDAO.boardDelete(boardNo) == 0)&#xD;
+			 throw new SQLException(&quot;삭제되지 않았습니다.&quot;);////예외발생하면 controller의 catch블럭으로이동&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvVLeTGoEe2FoLK32lLlAA" name="replyInsert" specification="_JuZ-YDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvVLejGoEe2FoLK32lLlAA" name="replyDTO" type="_JqZoIDGoEe2FoLK32lLlAA"/>
+              <language>java</language>
+              <body>if(boardDAO.replyInsert(replyDTO)==0) &#xD;
+			throw new SQLException(&quot;댓글등록이 되지 않았습니다.&quot;);&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvVygDGoEe2FoLK32lLlAA" name="replySelectByParentNo" specification="_Jq1tATGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvVygTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvVygjGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+              <language>java</language>
+              <body>BoardDTO boardDTO = boardDAO.replySelectByParentNo(boardNo);&#xD;
+		if(boardDTO==null)&#xD;
+			throw new SQLException(&quot;부모글의 정보가 없습니다.&quot;);&#xD;
+		else if(boardDTO.getRepliesList().size()==0)&#xD;
+			throw new SQLException(boardNo+&quot;에 해당하는 댓글의 정보가 없습니다.&quot;);&#xD;
+		&#xD;
+		return boardDTO;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_JquYQDGoEe2FoLK32lLlAA" name="boardSelectAll" method="_JvUkYjGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jqu_UDGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jqu_UTGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jqw0gDGoEe2FoLK32lLlAA" name="boardSelectBySubject" method="_JvUkZTGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jqw0gTGoEe2FoLK32lLlAA" name="keyWord">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Jqw0gjGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jqw0gzGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqypsDGoEe2FoLK32lLlAA" name="boardSelectByNo" method="_JvVLcDGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JqypsTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JuWUADGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jq0e4DGoEe2FoLK32lLlAA" name="boardDelete" method="_JvVLdzGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jq0e4TGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jq1tATGoEe2FoLK32lLlAA" name="replySelectByParentNo" method="_JvVygDGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jq2UEDGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JudBsDGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JuW7EDGoEe2FoLK32lLlAA" name="boardInsert" method="_JvVLczGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JuW7ETGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JuYwQDGoEe2FoLK32lLlAA" name="boardUpdate" method="_JvVLdTGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JuYwQTGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JuZ-YDGoEe2FoLK32lLlAA" name="replyInsert" method="_JvVLeTGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JuZ-YTGoEe2FoLK32lLlAA" name="replyDTO" type="_JqZoIDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Jve8cTGoEe2FoLK32lLlAA" name="" memberEnd="_Jve8cjGoEe2FoLK32lLlAA _JvMokTGoEe2FoLK32lLlAA">
+            <ownedEnd xmi:id="_Jve8cjGoEe2FoLK32lLlAA" name="" type="_JqtxMDGoEe2FoLK32lLlAA" association="_Jve8cTGoEe2FoLK32lLlAA"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_JoMBoTGoEe2FoLK32lLlAA" name="view">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Jq8asDGoEe2FoLK32lLlAA" name="FailView">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvVygzGoEe2FoLK32lLlAA" name="errorMessage" specification="_Jq9BwDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvVyhDGoEe2FoLK32lLlAA" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(message);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_Jq9BwDGoEe2FoLK32lLlAA" name="errorMessage" isStatic="true" method="_JvVygzGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jq9BwTGoEe2FoLK32lLlAA" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Jq9BwjGoEe2FoLK32lLlAA" name="MainApp">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvVyhTGoEe2FoLK32lLlAA" name="main" specification="_Jq9o0DGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvVyhjGoEe2FoLK32lLlAA" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvVyhzGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;***프로그램 시작합니다.***************&quot;);&#xD;
+		MenuView.menuChoice();&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_Jq9o0DGoEe2FoLK32lLlAA" name="main" isStatic="true" method="_JvVyhTGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jq9o0TGoEe2FoLK32lLlAA" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jq-P4DGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Jq-P4TGoEe2FoLK32lLlAA" name="MenuView">
+            <ownedAttribute xmi:id="_JvN2sDGoEe2FoLK32lLlAA" name="sc" visibility="package" isStatic="true" type="_Jue24DGoEe2FoLK32lLlAA" association="_Jve8dDGoEe2FoLK32lLlAA">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_JvN2sTGoEe2FoLK32lLlAA" value="new Scanner(System.in)"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvVyiDGoEe2FoLK32lLlAA" name="menuChoice" specification="_Jq-28DGoEe2FoLK32lLlAA">
+              <language>java</language>
+              <body>while(true) {&#xD;
+     	 System.out.println(&quot;\n----------------------------------------&quot;);&#xD;
+     	 System.out.print(&quot;[ 1. 전체검색   &quot;);&#xD;
+     	 System.out.print(&quot;2. 글번호에 해당하는 검색   &quot;);&#xD;
+       	System.out.print(&quot;3. 제목에 포함된 검색   &quot;);&#xD;
+      	System.out.print(&quot;4. 등록   &quot;);&#xD;
+      	System.out.print(&quot;5. 수정   &quot;);&#xD;
+      	System.out.print(&quot;6. 삭제   &quot;);&#xD;
+      	&#xD;
+      	System.out.print(&quot;7. 댓글등록   &quot;);&#xD;
+      	System.out.print(&quot;8. 부모글의 댓글정보검색  &quot;);&#xD;
+      	&#xD;
+      	System.out.print(&quot;9. 종료 ]&quot;);&#xD;
+&#xD;
+           System.out.println(&quot;\n--------------------------------------------&quot;);&#xD;
+           System.out.println(&quot;선택메뉴는?&quot;);&#xD;
+           try {&#xD;
+	              int menu = Integer.parseInt(sc.nextLine());//&#xD;
+	              switch (menu) {&#xD;
+				  case 1:&#xD;
+					  BoardController.boardSelectByAll();	&#xD;
+					break;&#xD;
+	               case 2:&#xD;
+	            	   inputBoardByno(); //존재하는 게시물&#xD;
+					break;&#xD;
+	               case 3:&#xD;
+	            	   inputBoardBySubject();&#xD;
+	 				break;&#xD;
+	               case 4:&#xD;
+	            	   inputInsertBoard();&#xD;
+	 				break;&#xD;
+	               case 5:&#xD;
+	    				inputUpdateBoard();&#xD;
+	    				break;&#xD;
+	               case 6:&#xD;
+	            	   inputDeleteBoard();&#xD;
+	    				break;&#xD;
+	               case 7: //댓글등록&#xD;
+	            	   inputInsertReply();&#xD;
+	    				break;&#xD;
+	               case 8: //부모글의 댓글정보 검색&#xD;
+	            	   inputSelectReplyByParentNo();&#xD;
+	    				break;		&#xD;
+	    		&#xD;
+	               case 9:&#xD;
+	            	  System.out.println(&quot;다음에 다시 만나요~~^^ 로그아웃됩니다...&quot;);&#xD;
+	    			 System.exit(0);	&#xD;
+	    			&#xD;
+				default:&#xD;
+					System.out.println(&quot;잘못되었습니다..다시 입력해주세요.&quot;);&#xD;
+				}&#xD;
+	        	 &#xD;
+           }catch (NumberFormatException e) {&#xD;
+				System.out.println(&quot;메뉴는 숫자만 가능합니다.&quot;);&#xD;
+			}&#xD;
+      }//while문&#xD;
+ 	&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvVyiTGoEe2FoLK32lLlAA" name="inputBoardByno" specification="_Jq-28TGoEe2FoLK32lLlAA">
+              <language>java</language>
+              <body>try {&#xD;
+	    	 System.out.println(&quot;글번호는 ???&quot;);&#xD;
+	    	 String no = sc.nextLine();&#xD;
+	    	 &#xD;
+	    	BoardController.boardSelectByNo(Integer.parseInt(no));&#xD;
+ 	  }catch (NumberFormatException e) {&#xD;
+			System.out.println(&quot;글번호는 숫자만 입력해주세요.&quot;);&#xD;
+			System.out.println(&quot;다시 할래요?  yes or no&quot;);&#xD;
+			String choice = sc.nextLine();&#xD;
+			if(choice.equals(&quot;yes&quot;)) {&#xD;
+				inputBoardByno();&#xD;
+			}&#xD;
+		 }//catch블럭End&#xD;
+  </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvWZkDGoEe2FoLK32lLlAA" name="inputBoardBySubject" specification="_Jq_eADGoEe2FoLK32lLlAA">
+              <language>java</language>
+              <body>System.out.println(&quot;찾을 문자열은 ???&quot;);&#xD;
+ 	 String word = sc.nextLine();&#xD;
+ 	 BoardController.boardSelectBySubject(word);&#xD;
+  </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvWZkTGoEe2FoLK32lLlAA" name="inputInsertBoard" specification="_Jq_eATGoEe2FoLK32lLlAA">
+              <language>java</language>
+              <body>System.out.println(&quot;제목은?&quot;);&#xD;
+ 	 String subject = sc.nextLine();&#xD;
+ 	 &#xD;
+ 	 System.out.println(&quot;작성자?&quot;);&#xD;
+ 	 String writer = sc.nextLine();&#xD;
+ 	 &#xD;
+ 	 System.out.println(&quot;내용은?&quot;);&#xD;
+ 	 String content = sc.nextLine();&#xD;
+ 	 &#xD;
+ 	 BoardDTO board =  new BoardDTO(0, subject, writer, content, null);&#xD;
+ 	 BoardController.boardInsert(board);&#xD;
+  </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvWZkjGoEe2FoLK32lLlAA" name="inputUpdateBoard" specification="_JrAFEDGoEe2FoLK32lLlAA">
+              <language>java</language>
+              <body>System.out.println(&quot;수정 할 게시물 번호는?&quot;);&#xD;
+ 	 int no = Integer.parseInt(sc.nextLine());&#xD;
+ 	 &#xD;
+ 	 System.out.println(&quot;수정 내용은?&quot;);&#xD;
+ 	 String content = sc.nextLine();&#xD;
+ 	&#xD;
+ 	 BoardDTO board =  new BoardDTO(no, null, null, content, null);&#xD;
+ 	 &#xD;
+ 	 BoardController.boardUpdate(board);&#xD;
+  </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvWZkzGoEe2FoLK32lLlAA" name="inputDeleteBoard" specification="_JrAFETGoEe2FoLK32lLlAA">
+              <language>java</language>
+              <body>System.out.println(&quot;삭제 게시물 번호는?&quot;);&#xD;
+ 	 int no = Integer.parseInt(sc.nextLine());&#xD;
+ 	 BoardController.boardDelete(no);&#xD;
+  </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvWZlDGoEe2FoLK32lLlAA" name="inputSelectReplyByParentNo" specification="_JrAFEjGoEe2FoLK32lLlAA">
+              <language>java</language>
+              <body>//부모글의 글번호를 키보드로 입력받는다.&#xD;
+ 	  System.out.println(&quot;검색하려는 댓글의 부모 글번호 ?&quot;);&#xD;
+ 	  int boardNo = Integer.parseInt(sc.nextLine());&#xD;
+ 	  BoardController.replySelectByParentNo(boardNo);&#xD;
+ 	  &#xD;
+ 	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvWZlTGoEe2FoLK32lLlAA" name="inputInsertReply" specification="_JrAsIDGoEe2FoLK32lLlAA">
+              <language>java</language>
+              <body>//키보드 입력으로 댓글내용 , 등록하려는 부모글번호 입력받는다.&#xD;
+ 	 System.out.println(&quot;댓글을 등록하려는 부모글 번호 ?&quot;);&#xD;
+ 	 int boardNo = Integer.parseInt(sc.nextLine());&#xD;
+ 	 &#xD;
+ 	 System.out.println(&quot;댓글 내용은 ?&quot;);&#xD;
+ 	 String replyContent = sc.nextLine();&#xD;
+ 	 &#xD;
+ 	BoardController.replyInsert(  new ReplyDTO(replyContent, boardNo)  )  ;&#xD;
+ 	 &#xD;
+ 		&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_Jq-28DGoEe2FoLK32lLlAA" name="menuChoice" isStatic="true" method="_JvVyiDGoEe2FoLK32lLlAA"/>
+            <ownedOperation xmi:id="_Jq-28TGoEe2FoLK32lLlAA" name="inputBoardByno" isStatic="true" method="_JvVyiTGoEe2FoLK32lLlAA"/>
+            <ownedOperation xmi:id="_Jq_eADGoEe2FoLK32lLlAA" name="inputBoardBySubject" isStatic="true" method="_JvWZkDGoEe2FoLK32lLlAA"/>
+            <ownedOperation xmi:id="_Jq_eATGoEe2FoLK32lLlAA" name="inputInsertBoard" isStatic="true" method="_JvWZkTGoEe2FoLK32lLlAA"/>
+            <ownedOperation xmi:id="_JrAFEDGoEe2FoLK32lLlAA" name="inputUpdateBoard" isStatic="true" method="_JvWZkjGoEe2FoLK32lLlAA"/>
+            <ownedOperation xmi:id="_JrAFETGoEe2FoLK32lLlAA" name="inputDeleteBoard" isStatic="true" method="_JvWZkzGoEe2FoLK32lLlAA"/>
+            <ownedOperation xmi:id="_JrAFEjGoEe2FoLK32lLlAA" name="inputSelectReplyByParentNo" isStatic="true" method="_JvWZlDGoEe2FoLK32lLlAA"/>
+            <ownedOperation xmi:id="_JrAsIDGoEe2FoLK32lLlAA" name="inputInsertReply" isStatic="true" method="_JvWZlTGoEe2FoLK32lLlAA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_JrBTMDGoEe2FoLK32lLlAA" name="SuccessView">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvXAoDGoEe2FoLK32lLlAA" name="selectPrint" specification="_Juv8oDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvXAoTGoEe2FoLK32lLlAA" name="list" type="_Jt62MDGoEe2FoLK32lLlAA"/>
+              <language>java</language>
+              <body>System.out.println(&quot;----Board LIST (&quot;+list.size()+&quot;) 개 ------------------&quot;);&#xD;
+		for(BoardDTO board : list) {&#xD;
+			System.out.println(board);//board.toString()호출&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvXAojGoEe2FoLK32lLlAA" name="messagePrint" specification="_JrB6QDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvXAozGoEe2FoLK32lLlAA" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(message);&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvXApDGoEe2FoLK32lLlAA" name="selectByNoPrint" specification="_JugFADGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvXApTGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <language>java</language>
+              <body>System.out.println(boardDTO);&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvXApjGoEe2FoLK32lLlAA" name="selectReplyPrint" specification="_JugsEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvXApzGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <language>java</language>
+              <body>System.out.println(boardDTO);&#xD;
+		&#xD;
+		System.out.println(&quot;댓글 개수 : &quot; + boardDTO.getRepliesList().size() +&quot;개 ---------&quot;);&#xD;
+		for(ReplyDTO reply : boardDTO.getRepliesList()) {&#xD;
+			System.out.println(&quot;       ▶ &quot; + reply );&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_JrB6QDGoEe2FoLK32lLlAA" name="messagePrint" isStatic="true" method="_JvXAojGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JrChUDGoEe2FoLK32lLlAA" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JugFADGoEe2FoLK32lLlAA" name="selectByNoPrint" isStatic="true" method="_JvXApDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JugFATGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JugsEDGoEe2FoLK32lLlAA" name="selectReplyPrint" isStatic="true" method="_JvXApjGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JugsETGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Juv8oDGoEe2FoLK32lLlAA" name="selectPrint" isStatic="true" method="_JvXAoDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Juv8oTGoEe2FoLK32lLlAA" name="list" type="_Jt62MDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Jve8dDGoEe2FoLK32lLlAA" name="" memberEnd="_Jve8dTGoEe2FoLK32lLlAA _JvN2sDGoEe2FoLK32lLlAA">
+            <ownedEnd xmi:id="_Jve8dTGoEe2FoLK32lLlAA" name="" type="_Jq-P4TGoEe2FoLK32lLlAA" association="_Jve8dDGoEe2FoLK32lLlAA"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_JoOd4DGoEe2FoLK32lLlAA" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Jpr2cDGoEe2FoLK32lLlAA" name="BoardController">
+            <ownedAttribute xmi:id="_Ju1cMDGoEe2FoLK32lLlAA" name="boardService" visibility="private" isStatic="true" type="_JqgV0DGoEe2FoLK32lLlAA" association="_JvduUDGoEe2FoLK32lLlAA">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_Ju2DQDGoEe2FoLK32lLlAA" value="new BoardServiceImpl()"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvQ6ADGoEe2FoLK32lLlAA" name="boardSelectByAll" specification="_Jpvg0DGoEe2FoLK32lLlAA">
+              <language>java</language>
+              <body>try {&#xD;
+			//서비스 호출하고 그결과에 따라 성공 또는 실패 뷰로 이동한다. &#xD;
+			List&lt;BoardDTO> list = boardService.boardSelectAll();&#xD;
+			SuccessView.selectPrint(list);&#xD;
+			&#xD;
+		}catch (SQLException e) {&#xD;
+			//e.printStackTrace();&#xD;
+			FailView.errorMessage( e.getMessage() );&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvQ6ATGoEe2FoLK32lLlAA" name="boardSelectByNo" specification="_JpwH4DGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvQ6AjGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+		 BoardDTO boardDTO = boardService.boardSelectByNo(boardNo);&#xD;
+		 SuccessView.selectByNoPrint(boardDTO);&#xD;
+		  &#xD;
+		}catch (SQLException e) {&#xD;
+			//e.printStackTrace();&#xD;
+			FailView.errorMessage(e.getMessage());&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvRhEDGoEe2FoLK32lLlAA" name="boardSelectBySubject" specification="_Jpwu8DGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvRhETGoEe2FoLK32lLlAA" name="word">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+			List&lt;BoardDTO> list = boardService.boardSelectBySubject(word);&#xD;
+			SuccessView.selectPrint(list);&#xD;
+			&#xD;
+		}catch (SQLException e) {&#xD;
+			//e.printStackTrace();&#xD;
+			FailView.errorMessage(e.getMessage());&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvRhEjGoEe2FoLK32lLlAA" name="boardInsert" specification="_Jt8EUDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvRhEzGoEe2FoLK32lLlAA" name="board" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <language>java</language>
+              <body>try {&#xD;
+	      boardService.boardInsert(board);&#xD;
+	      SuccessView.messagePrint(&quot;게시물이 등록되었습니다.&quot;);&#xD;
+	      &#xD;
+		}catch (SQLException e) {&#xD;
+			//e.printStackTrace();&#xD;
+			FailView.errorMessage(e.getMessage());&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvRhFDGoEe2FoLK32lLlAA" name="boardUpdate" specification="_Jt8rYDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvRhFTGoEe2FoLK32lLlAA" name="board" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <language>java</language>
+              <body>try {&#xD;
+			boardService.boardUpdate(board);&#xD;
+			SuccessView.messagePrint(&quot;수정되었습니다.&quot;);&#xD;
+		} catch (SQLException e) {&#xD;
+			//e.printStackTrace();&#xD;
+			FailView.errorMessage(e.getMessage());&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvRhFjGoEe2FoLK32lLlAA" name="boardDelete" specification="_JpxWADGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvRhFzGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+			boardService.boardDelete(boardNo);&#xD;
+			SuccessView.messagePrint(&quot;삭제되었습니다.&quot;);&#xD;
+		} catch (SQLException e) {&#xD;
+			//e.printStackTrace();&#xD;
+			FailView.errorMessage(e.getMessage());&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvRhGDGoEe2FoLK32lLlAA" name="replyInsert" specification="_Jt9ScDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvRhGTGoEe2FoLK32lLlAA" name="replyDTO" type="_JqZoIDGoEe2FoLK32lLlAA"/>
+              <language>java</language>
+              <body>try {&#xD;
+			boardService.replyInsert(replyDTO);&#xD;
+			SuccessView.messagePrint(replyDTO.getBoardNo()+&quot;번 글에 댓글을 등록하였습니다.&quot;);&#xD;
+		} catch (SQLException e) {&#xD;
+			//e.printStackTrace();&#xD;
+			FailView.errorMessage(e.getMessage());&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvRhGjGoEe2FoLK32lLlAA" name="replySelectByParentNo" specification="_Jpx9ETGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvRhGzGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+			BoardDTO boardDTO = boardService.replySelectByParentNo(boardNo);&#xD;
+			SuccessView.selectReplyPrint(boardDTO);&#xD;
+			&#xD;
+		} catch (SQLException e) {&#xD;
+			//e.printStackTrace();&#xD;
+			FailView.errorMessage(e.getMessage());&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_Jpvg0DGoEe2FoLK32lLlAA" name="boardSelectByAll" isStatic="true" method="_JvQ6ADGoEe2FoLK32lLlAA">
+              <ownedComment xmi:id="_JvZc4DGoEe2FoLK32lLlAA">
+                <body>게시물 전체 검색하기 &#xD;
+	 *</body>
+              </ownedComment>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JpwH4DGoEe2FoLK32lLlAA" name="boardSelectByNo" isStatic="true" method="_JvQ6ATGoEe2FoLK32lLlAA">
+              <ownedComment xmi:id="_JvZc4TGoEe2FoLK32lLlAA">
+                <body>글번호에 해당하는 게시물 검색하기 &#xD;
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_JpwH4TGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jpwu8DGoEe2FoLK32lLlAA" name="boardSelectBySubject" isStatic="true" method="_JvRhEDGoEe2FoLK32lLlAA">
+              <ownedComment xmi:id="_JvZc4jGoEe2FoLK32lLlAA">
+                <body>제목에 포함된 검색...&#xD;
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Jpwu8TGoEe2FoLK32lLlAA" name="word">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JpxWADGoEe2FoLK32lLlAA" name="boardDelete" isStatic="true" method="_JvRhFjGoEe2FoLK32lLlAA">
+              <ownedComment xmi:id="_JvZc5TGoEe2FoLK32lLlAA">
+                <body>글번호에 해당하는 게시물 삭제&#xD;
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Jpx9EDGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jpx9ETGoEe2FoLK32lLlAA" name="replySelectByParentNo" isStatic="true" method="_JvRhGjGoEe2FoLK32lLlAA">
+              <ownedComment xmi:id="_JvZc5zGoEe2FoLK32lLlAA">
+                <body>부모글에 해당하는 댓글정보 검색하기 &#xD;
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_JpykIDGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jt8EUDGoEe2FoLK32lLlAA" name="boardInsert" isStatic="true" method="_JvRhEjGoEe2FoLK32lLlAA">
+              <ownedComment xmi:id="_JvZc4zGoEe2FoLK32lLlAA">
+                <body> 글 등록하기&#xD;
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Jt8EUTGoEe2FoLK32lLlAA" name="board" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jt8rYDGoEe2FoLK32lLlAA" name="boardUpdate" isStatic="true" method="_JvRhFDGoEe2FoLK32lLlAA">
+              <ownedComment xmi:id="_JvZc5DGoEe2FoLK32lLlAA">
+                <body>게시물 수정하기&#xD;
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Jt8rYTGoEe2FoLK32lLlAA" name="board" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jt9ScDGoEe2FoLK32lLlAA" name="replyInsert" isStatic="true" method="_JvRhGDGoEe2FoLK32lLlAA">
+              <ownedComment xmi:id="_JvZc5jGoEe2FoLK32lLlAA">
+                <body>부모글에 댓글 등록하기 &#xD;
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Jt9ScTGoEe2FoLK32lLlAA" name="replyDTO" type="_JqZoIDGoEe2FoLK32lLlAA"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_JvduUDGoEe2FoLK32lLlAA" name="" memberEnd="_JvduUTGoEe2FoLK32lLlAA _Ju1cMDGoEe2FoLK32lLlAA">
+            <ownedEnd xmi:id="_JvduUTGoEe2FoLK32lLlAA" name="" type="_Jpr2cDGoEe2FoLK32lLlAA" association="_JvduUDGoEe2FoLK32lLlAA"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_JoQ6IDGoEe2FoLK32lLlAA" name="dao">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Jp1AYDGoEe2FoLK32lLlAA" name="BoardDAO">
+            <ownedOperation xmi:id="_Jp1ncDGoEe2FoLK32lLlAA" name="boardSelectAll" visibility="package" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jp2OgDGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jp2OgTGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jp3coDGoEe2FoLK32lLlAA" name="boardSelectBySubject" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jp3coTGoEe2FoLK32lLlAA" name="keyWord">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Jp3cojGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jp3cozGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jp4DsDGoEe2FoLK32lLlAA" name="boardSelectByNo" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jp4DsTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Jt-gkDGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jp5R0DGoEe2FoLK32lLlAA" name="boardDelete" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jp5R0TGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Jp5R0jGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jp6f8DGoEe2FoLK32lLlAA" name="replySelectByParentNo" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jp6f8TGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JuAVwzGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jt_HoDGoEe2FoLK32lLlAA" name="boardInsert" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jt_HoTGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_Jt_HojGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Jt_HozGoEe2FoLK32lLlAA" name="boardUpdate" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_Jt_usDGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_Jt_usTGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JuAVwDGoEe2FoLK32lLlAA" name="replyInsert" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JuAVwTGoEe2FoLK32lLlAA" name="replyDTO" type="_JqZoIDGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_JuAVwjGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_JqAmkDGoEe2FoLK32lLlAA" name="BoardDAOImpl">
+            <ownedAttribute xmi:id="_Ju2qUDGoEe2FoLK32lLlAA" name="proFile" visibility="private" type="_JuFOQDGoEe2FoLK32lLlAA" association="_JveVYDGoEe2FoLK32lLlAA">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_Ju2qUTGoEe2FoLK32lLlAA" value="DbUtil.getProFile()"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_JuHDcTGoEe2FoLK32lLlAA" client="_JqAmkDGoEe2FoLK32lLlAA" supplier="_Jp1AYDGoEe2FoLK32lLlAA" contract="_Jp1AYDGoEe2FoLK32lLlAA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvSIIDGoEe2FoLK32lLlAA" name="boardSelectAll" specification="_JqB0sDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvSIITGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvSIIjGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Connection con=null;&#xD;
+		PreparedStatement ps =null;&#xD;
+		ResultSet rs=null;&#xD;
+		List&lt;BoardDTO> list = new ArrayList&lt;BoardDTO>();&#xD;
+		String sql = proFile.getProperty(&quot;board.selectAll&quot;);//select * from board order by board_no desc&#xD;
+		&#xD;
+		try {&#xD;
+			con = DbUtil.getConnection();&#xD;
+			ps = con.prepareStatement(sql);&#xD;
+			//?가 있따면 setXxx설정&#xD;
+			rs = ps.executeQuery();&#xD;
+			while(rs.next()) {&#xD;
+				BoardDTO dto =&#xD;
+				new BoardDTO(rs.getInt(1), rs.getString(2),  rs.getString(3), rs.getString(4),rs.getString(5));&#xD;
+				list.add(dto);&#xD;
+			}&#xD;
+			&#xD;
+		}finally {&#xD;
+			DbUtil.dbClose(con, ps, rs);&#xD;
+		}&#xD;
+		return list;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvSIIzGoEe2FoLK32lLlAA" name="boardSelectBySubject" specification="_JqDp4DGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvSIJDGoEe2FoLK32lLlAA" name="keyWord">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvSIJTGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvSIJjGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Connection con=null;&#xD;
+		PreparedStatement ps =null;&#xD;
+		ResultSet rs=null;&#xD;
+		List&lt;BoardDTO> list = new ArrayList&lt;BoardDTO>();&#xD;
+		String sql = proFile.getProperty(&quot;board.selectBySubject&quot;);//select * from board where upper(subject) like upper(?)&#xD;
+		&#xD;
+		try {&#xD;
+			con = DbUtil.getConnection();&#xD;
+			ps = con.prepareStatement(sql);&#xD;
+			//?가 있따면 setXxx설정&#xD;
+			ps.setString(1,  &quot;%&quot;+ keyWord +&quot;%&quot;);&#xD;
+			rs = ps.executeQuery();&#xD;
+			while(rs.next()) {&#xD;
+				BoardDTO dto =&#xD;
+				new BoardDTO(rs.getInt(1), rs.getString(2),  rs.getString(3), rs.getString(4),rs.getString(5));&#xD;
+				list.add(dto);&#xD;
+			}&#xD;
+			&#xD;
+		}finally {&#xD;
+			DbUtil.dbClose(con, ps, rs);&#xD;
+		}&#xD;
+		return list;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvSvMDGoEe2FoLK32lLlAA" name="boardSelectByNo" specification="_JqFfEjGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvSvMTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvSvMjGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+              <language>java</language>
+              <body>Connection con=null;&#xD;
+		PreparedStatement ps =null;&#xD;
+		ResultSet rs=null;&#xD;
+		BoardDTO boardDTO=null;&#xD;
+		String sql = proFile.getProperty(&quot;board.selectByNo&quot;);//select * from board where board_no = ? &#xD;
+		&#xD;
+		try {&#xD;
+			con = DbUtil.getConnection();&#xD;
+			ps = con.prepareStatement(sql);&#xD;
+			//?가 있따면 setXxx설정&#xD;
+			ps.setInt(1, boardNo);&#xD;
+			&#xD;
+			rs = ps.executeQuery();&#xD;
+			if(rs.next()) {&#xD;
+				boardDTO = new BoardDTO(rs.getInt(1), rs.getString(2),  rs.getString(3), rs.getString(4),rs.getString(5));&#xD;
+			}&#xD;
+		}finally {&#xD;
+			DbUtil.dbClose(con, ps, rs);&#xD;
+		}&#xD;
+		return boardDTO;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvSvMzGoEe2FoLK32lLlAA" name="boardInsert" specification="_JuHqgTGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvSvNDGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_JvSvNTGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Connection con=null;&#xD;
+		PreparedStatement ps =null;&#xD;
+		int result = 0;&#xD;
+		String sql = proFile.getProperty(&quot;board.insert&quot;);//insert into board (board_no, subject, writer, content, board_date) values (board_seq.nextval, ?, ?, ?, sysdate)&#xD;
+		&#xD;
+		try {&#xD;
+			con = DbUtil.getConnection();&#xD;
+			ps = con.prepareStatement(sql);&#xD;
+			//?가 있따면 setXxx설정&#xD;
+			ps.setString(1,boardDTO.getSubject() );&#xD;
+			ps.setString(2,boardDTO.getWriter() );&#xD;
+			ps.setString(3,boardDTO.getContent() );&#xD;
+			&#xD;
+			result = ps.executeUpdate();&#xD;
+		}finally {&#xD;
+			DbUtil.dbClose(con, ps);&#xD;
+		}&#xD;
+		return result;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvSvNjGoEe2FoLK32lLlAA" name="boardUpdate" specification="_JuI4ojGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvSvNzGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_JvSvODGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Connection con=null;&#xD;
+		PreparedStatement ps =null;&#xD;
+		int result = 0;&#xD;
+		String sql = proFile.getProperty(&quot;board.updateByNo&quot;);//update board set content = ? where board_no = ?&#xD;
+		&#xD;
+		try {&#xD;
+			con = DbUtil.getConnection();&#xD;
+			ps = con.prepareStatement(sql);&#xD;
+			//?가 있따면 setXxx설정&#xD;
+			ps.setString(1,boardDTO.getContent() );&#xD;
+			ps.setInt(2,boardDTO.getBoardNo() );&#xD;
+			&#xD;
+			result = ps.executeUpdate();&#xD;
+		}finally {&#xD;
+			DbUtil.dbClose(con, ps);&#xD;
+		}&#xD;
+		return result;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvSvOTGoEe2FoLK32lLlAA" name="boardDelete" specification="_JqIiYDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvSvOjGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvSvOzGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Connection con=null;&#xD;
+		PreparedStatement ps =null;&#xD;
+		int result = 0;&#xD;
+		String sql = proFile.getProperty(&quot;board.deleteByNo&quot;);//delete from board where board_no = ?&#xD;
+		&#xD;
+		try {&#xD;
+			con = DbUtil.getConnection();&#xD;
+			ps = con.prepareStatement(sql);&#xD;
+			//?가 있따면 setXxx설정&#xD;
+			ps.setInt(1, boardNo );&#xD;
+			result = ps.executeUpdate();&#xD;
+			&#xD;
+		}finally {&#xD;
+			DbUtil.dbClose(con, ps);&#xD;
+		}&#xD;
+		return result;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvSvPDGoEe2FoLK32lLlAA" name="replyInsert" specification="_JuKt0DGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvSvPTGoEe2FoLK32lLlAA" name="replyDTO" type="_JqZoIDGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_JvSvPjGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Connection con=null;&#xD;
+		PreparedStatement ps =null;&#xD;
+		int result = 0;&#xD;
+		String sql = proFile.getProperty(&quot;reply.insert&quot;);//insert into reply values(reply_no_seq.nextval , ?, ? , sysdate)&#xD;
+		&#xD;
+		try {&#xD;
+			con = DbUtil.getConnection();&#xD;
+			ps = con.prepareStatement(sql);&#xD;
+			//?가 있따면 setXxx설정&#xD;
+			ps.setString(1, replyDTO.getReplyContent() );&#xD;
+			ps.setInt(2, replyDTO.getBoardNo() );//무모글번호 &#xD;
+			&#xD;
+			result = ps.executeUpdate();&#xD;
+			&#xD;
+		}finally {&#xD;
+			DbUtil.dbClose(con, ps);&#xD;
+		}&#xD;
+		return result;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvTWQDGoEe2FoLK32lLlAA" name="replySelectByParentNo" specification="_JqKXkDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvTWQTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvTWQjGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+              <language>java</language>
+              <body>Connection con=null;&#xD;
+		PreparedStatement ps =null;&#xD;
+		ResultSet rs=null;&#xD;
+		BoardDTO boardDTO=null;&#xD;
+		String sql = proFile.getProperty(&quot;board.selectByNo&quot;);//select * from board where board_no = ? &#xD;
+		&#xD;
+		try {&#xD;
+			con = DbUtil.getConnection();&#xD;
+			ps = con.prepareStatement(sql);&#xD;
+			//?가 있따면 setXxx설정&#xD;
+			ps.setInt(1, boardNo);&#xD;
+			&#xD;
+			rs = ps.executeQuery();&#xD;
+			if(rs.next()) {&#xD;
+				boardDTO = new BoardDTO(rs.getInt(1), rs.getString(2),  rs.getString(3), rs.getString(4),rs.getString(5));&#xD;
+				&#xD;
+				//부모글이 있으니 댓글정보를 가져온다!!!&#xD;
+				List&lt;ReplyDTO> repliesList = this.getInfoReply(con, boardNo);&#xD;
+				boardDTO.setRepliesList(repliesList);&#xD;
+			&#xD;
+			}&#xD;
+		}finally {&#xD;
+			DbUtil.dbClose(con, ps, rs);&#xD;
+		}&#xD;
+		return boardDTO;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvTWQzGoEe2FoLK32lLlAA" name="getInfoReply" specification="_JurrMDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JvTWRDGoEe2FoLK32lLlAA" name="con" type="_JuCK8DGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_JvTWRTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JvTWRjGoEe2FoLK32lLlAA" type="_JqZoIDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvTWRzGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>//부모글번호&#xD;
+		PreparedStatement ps =null;&#xD;
+		ResultSet rs=null;&#xD;
+		List&lt;ReplyDTO> repliesList = new ArrayList&lt;ReplyDTO>();&#xD;
+		String sql = proFile.getProperty(&quot;reply.selectByboardNo&quot;);//select * from reply where board_no=?&#xD;
+		&#xD;
+		try {&#xD;
+			ps = con.prepareStatement(sql);&#xD;
+			//?가 있따면 setXxx설정&#xD;
+			ps.setInt(1, boardNo);&#xD;
+			rs = ps.executeQuery();&#xD;
+			while(rs.next()) {&#xD;
+             ReplyDTO reply = new ReplyDTO(rs.getInt(1), rs.getString(2), rs.getInt(3),rs.getString(4));&#xD;
+             repliesList.add(reply);&#xD;
+			&#xD;
+			}&#xD;
+		}finally {&#xD;
+			DbUtil.dbClose(null, ps, rs);&#xD;
+		}&#xD;
+		return repliesList;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_JqB0sDGoEe2FoLK32lLlAA" name="boardSelectAll" method="_JvSIIDGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JqB0sTGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JqB0sjGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqDp4DGoEe2FoLK32lLlAA" name="boardSelectBySubject" method="_JvSIIzGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JqDp4TGoEe2FoLK32lLlAA" name="keyWord">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqDp4jGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JqDp4zGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqFfEjGoEe2FoLK32lLlAA" name="boardSelectByNo" method="_JvSvMDGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JqGGIDGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JuHqgDGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqIiYDGoEe2FoLK32lLlAA" name="boardDelete" method="_JvSvOTGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JqIiYTGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JqJJcDGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JqKXkDGoEe2FoLK32lLlAA" name="replySelectByParentNo" method="_JvTWQDGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JqK-oDGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JuL78jGoEe2FoLK32lLlAA" type="_JqQeMDGoEe2FoLK32lLlAA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JuHqgTGoEe2FoLK32lLlAA" name="boardInsert" method="_JvSvMzGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JuIRkDGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_JuIRkTGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JuI4ojGoEe2FoLK32lLlAA" name="boardUpdate" method="_JvSvNjGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JuJfsDGoEe2FoLK32lLlAA" name="boardDTO" type="_JqQeMDGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_JuJfsTGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JuKt0DGoEe2FoLK32lLlAA" name="replyInsert" method="_JvSvPDGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedParameter xmi:id="_JuKt0TGoEe2FoLK32lLlAA" name="replyDTO" type="_JqZoIDGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_JuLU4DGoEe2FoLK32lLlAA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JurrMDGoEe2FoLK32lLlAA" name="getInfoReply" visibility="private" method="_JvTWQzGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+              <ownedComment xmi:id="_JvaD8DGoEe2FoLK32lLlAA">
+                <body>부모글의 댓글정보 가져오기 &#xD;
+     *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_JurrMTGoEe2FoLK32lLlAA" name="con" type="_JuCK8DGoEe2FoLK32lLlAA"/>
+              <ownedParameter xmi:id="_JurrMjGoEe2FoLK32lLlAA" name="boardNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JurrMzGoEe2FoLK32lLlAA" type="_JqZoIDGoEe2FoLK32lLlAA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JurrNDGoEe2FoLK32lLlAA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_JveVYDGoEe2FoLK32lLlAA" name="" memberEnd="_JveVYTGoEe2FoLK32lLlAA _Ju2qUDGoEe2FoLK32lLlAA">
+            <ownedEnd xmi:id="_JveVYTGoEe2FoLK32lLlAA" name="" type="_JqAmkDGoEe2FoLK32lLlAA" association="_JveVYDGoEe2FoLK32lLlAA"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_JoSIQDGoEe2FoLK32lLlAA" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_JrDIYDGoEe2FoLK32lLlAA" name="DbProperties">
+          <ownedComment xmi:id="_JvarADGoEe2FoLK32lLlAA">
+            <body>interface 안에 있는 모든 필드는 상수이다 - public static final 자동이다.&#xD;
+* 상수는 모두 대문자로 쓴다.&#xD;
+ *</body>
+          </ownedComment>
+          <ownedAttribute xmi:id="_JrDvcDGoEe2FoLK32lLlAA" name="DRIVER_NAME">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_JrEWgDGoEe2FoLK32lLlAA" value="&quot;oracle.jdbc.driver.OracleDriver&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_JrE9kTGoEe2FoLK32lLlAA" name="URL" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_JrE9kjGoEe2FoLK32lLlAA" value="&quot;jdbc:oracle:thin:@localhost:1521:xe&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_JrFkoTGoEe2FoLK32lLlAA" name="USER_ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_JrGLsDGoEe2FoLK32lLlAA" value="&quot;c##exam&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_JrGLsjGoEe2FoLK32lLlAA" name="USER_PWD">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_JrGywDGoEe2FoLK32lLlAA" value="&quot;kang&quot;"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JrHZ0DGoEe2FoLK32lLlAA" name="DbUtil">
+          <ownedAttribute xmi:id="_JvOdwTGoEe2FoLK32lLlAA" name="proFile" isStatic="true" type="_JuFOQDGoEe2FoLK32lLlAA" isReadOnly="true" association="_JvfjgTGoEe2FoLK32lLlAA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_JvPE0TGoEe2FoLK32lLlAA" value="new Properties()"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvXnsDGoEe2FoLK32lLlAA" name="_initializer1" specification="_JrIA4DGoEe2FoLK32lLlAA">
+            <language>java</language>
+            <body>try {&#xD;
+			//2개의 외부 ~.properties파일 로딩&#xD;
+			proFile.load(new FileInputStream(&quot;resources/dbInfo.properties&quot;));&#xD;
+			proFile.load(new FileInputStream(&quot;resources/board.properties&quot;));&#xD;
+			&#xD;
+			//System.out.println( proFile.getProperty(&quot;driverName&quot;));&#xD;
+			//System.out.println( proFile.getProperty(&quot;board.selectBySubject&quot;) );&#xD;
+			&#xD;
+		   Class.forName( proFile.getProperty(&quot;driverName&quot;) );//&#xD;
+		}catch (Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvXnsTGoEe2FoLK32lLlAA" name="getConnection" specification="_JrIA5DGoEe2FoLK32lLlAA">
+            <ownedParameter xmi:id="_JvXnsjGoEe2FoLK32lLlAA" type="_JuCK8DGoEe2FoLK32lLlAA" direction="return"/>
+            <language>java</language>
+            <body>Connection con = DriverManager.getConnection(&#xD;
+				proFile.getProperty(&quot;url&quot;), &#xD;
+				proFile.getProperty(&quot;userName&quot;),&#xD;
+				proFile.getProperty(&quot;userPass&quot;));&#xD;
+		&#xD;
+		return con;&#xD;
+		&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvXnszGoEe2FoLK32lLlAA" name="dbClose" specification="_JuyY4DGoEe2FoLK32lLlAA">
+            <ownedParameter xmi:id="_JvXntDGoEe2FoLK32lLlAA" name="con" type="_JuCK8DGoEe2FoLK32lLlAA"/>
+            <ownedParameter xmi:id="_JvXntTGoEe2FoLK32lLlAA" name="st" type="_Juh6MTGoEe2FoLK32lLlAA"/>
+            <ownedParameter xmi:id="_JvXntjGoEe2FoLK32lLlAA" name="rs" type="_JuDZETGoEe2FoLK32lLlAA"/>
+            <language>java</language>
+            <body>try {&#xD;
+		  if(rs!=null)rs.close();&#xD;
+	      dbClose(con, st);&#xD;
+ 	}catch (SQLException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvXntzGoEe2FoLK32lLlAA" name="dbClose" specification="_Juy_8DGoEe2FoLK32lLlAA">
+            <ownedParameter xmi:id="_JvXnuDGoEe2FoLK32lLlAA" name="con" type="_JuCK8DGoEe2FoLK32lLlAA"/>
+            <ownedParameter xmi:id="_JvXnuTGoEe2FoLK32lLlAA" name="st" type="_Juh6MTGoEe2FoLK32lLlAA"/>
+            <language>java</language>
+            <body>try {&#xD;
+			if(st != null)st.close();&#xD;
+			if(con!=null)con.close();&#xD;
+		}catch (SQLException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JvYOwDGoEe2FoLK32lLlAA" name="main" specification="_JrIn8DGoEe2FoLK32lLlAA">
+            <ownedParameter xmi:id="_JvYOwTGoEe2FoLK32lLlAA" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvYOwjGoEe2FoLK32lLlAA" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>try {&#xD;
+			&#xD;
+			System.out.println(&quot;***메인 시작*****&quot;);&#xD;
+			Connection con = DbUtil.getConnection();&#xD;
+			System.out.println(&quot;con = &quot; + con);&#xD;
+			&#xD;
+		}catch (Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_JrIA4DGoEe2FoLK32lLlAA" name="_initializer1" isStatic="true" method="_JvXnsDGoEe2FoLK32lLlAA">
+            <eAnnotations xmi:id="_JrIA4TGoEe2FoLK32lLlAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_JrIA4jGoEe2FoLK32lLlAA" key="init"/>
+            </eAnnotations>
+          </ownedOperation>
+          <ownedOperation xmi:id="_JrIA5DGoEe2FoLK32lLlAA" name="getConnection" isStatic="true" method="_JvXnsTGoEe2FoLK32lLlAA" raisedException="_Jt5oEDGoEe2FoLK32lLlAA">
+            <ownedComment xmi:id="_JvarATGoEe2FoLK32lLlAA">
+              <body>연결&#xD;
+	 *</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_Juxx0DGoEe2FoLK32lLlAA" type="_JuCK8DGoEe2FoLK32lLlAA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_JrIn8DGoEe2FoLK32lLlAA" name="main" isStatic="true" method="_JvYOwDGoEe2FoLK32lLlAA">
+            <ownedParameter xmi:id="_JrJPADGoEe2FoLK32lLlAA" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JrJPATGoEe2FoLK32lLlAA" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_JuyY4DGoEe2FoLK32lLlAA" name="dbClose" isStatic="true" method="_JvXnszGoEe2FoLK32lLlAA">
+            <ownedComment xmi:id="_JvarAjGoEe2FoLK32lLlAA">
+              <body>닫기  - 사용된 객체 닫기- select인경우 &#xD;
+	 *</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_JuyY4TGoEe2FoLK32lLlAA" name="con" type="_JuCK8DGoEe2FoLK32lLlAA"/>
+            <ownedParameter xmi:id="_JuyY4jGoEe2FoLK32lLlAA" name="st" type="_Juh6MTGoEe2FoLK32lLlAA"/>
+            <ownedParameter xmi:id="_JuyY4zGoEe2FoLK32lLlAA" name="rs" type="_JuDZETGoEe2FoLK32lLlAA"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Juy_8DGoEe2FoLK32lLlAA" name="dbClose" isStatic="true" method="_JvXntzGoEe2FoLK32lLlAA">
+            <ownedComment xmi:id="_JvarAzGoEe2FoLK32lLlAA">
+              <body>닫기  - 사용된 객체 닫기- DML or DDL 인경우 &#xD;
+	 *</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_Juy_8TGoEe2FoLK32lLlAA" name="con" type="_JuCK8DGoEe2FoLK32lLlAA"/>
+            <ownedParameter xmi:id="_Juy_8jGoEe2FoLK32lLlAA" name="st" type="_Juh6MTGoEe2FoLK32lLlAA"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_JvfjgTGoEe2FoLK32lLlAA" name="" memberEnd="_JvfjgjGoEe2FoLK32lLlAA _JvOdwTGoEe2FoLK32lLlAA">
+          <ownedEnd xmi:id="_JvfjgjGoEe2FoLK32lLlAA" name="" type="_JrHZ0DGoEe2FoLK32lLlAA" association="_JvfjgTGoEe2FoLK32lLlAA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JoLakDGoEe2FoLK32lLlAA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JoLakTGoEe2FoLK32lLlAA" name="sql">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Jt5oEDGoEe2FoLK32lLlAA" name="SQLException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_JuCK8DGoEe2FoLK32lLlAA" name="Connection"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_JuCyADGoEe2FoLK32lLlAA" name="PreparedStatement"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_JuDZETGoEe2FoLK32lLlAA" name="ResultSet"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JuhTIjGoEe2FoLK32lLlAA" name="DriverManager"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Juh6MTGoEe2FoLK32lLlAA" name="Statement"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_JoLakjGoEe2FoLK32lLlAA" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Jt62MDGoEe2FoLK32lLlAA" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JuEAITGoEe2FoLK32lLlAA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JuFOQDGoEe2FoLK32lLlAA" name="Properties"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Jue24DGoEe2FoLK32lLlAA" name="Scanner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_JpGAkDGoEe2FoLK32lLlAA" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_JuhTIDGoEe2FoLK32lLlAA" name="FileInputStream"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JoSvUDGoEe2FoLK32lLlAA" name="oracle">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JoSvUTGoEe2FoLK32lLlAA" name="jdbc">
+        <packagedElement xmi:type="uml:Package" xmi:id="_JoSvUjGoEe2FoLK32lLlAA" name="driver">
+          <packagedElement xmi:type="uml:Class" xmi:id="_JuF1UTGoEe2FoLK32lLlAA" name="DBConversion"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_JeAx8zGoEe2FoLK32lLlAA">
+      <eAnnotations xmi:id="_JeBZADGoEe2FoLK32lLlAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_JeBZATGoEe2FoLK32lLlAA" base_Package="_JSkW8DGoEe2FoLK32lLlAA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqCbwDGoEe2FoLK32lLlAA" base_Element="_JqB0sDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JqDC0DGoEe2FoLK32lLlAA" base_Element="_JqB0sDGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JqDC0TGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqEQ8DGoEe2FoLK32lLlAA" base_Element="_JqDp4DGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JqFfEDGoEe2FoLK32lLlAA" base_Element="_JqDp4DGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JqFfETGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqGGITGoEe2FoLK32lLlAA" base_Element="_JqFfEjGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JqGtMDGoEe2FoLK32lLlAA" base_Element="_JqFfEjGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JqGtMTGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqJJcTGoEe2FoLK32lLlAA" base_Element="_JqIiYDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JqJwgDGoEe2FoLK32lLlAA" base_Element="_JqIiYDGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JqJwgTGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqK-oTGoEe2FoLK32lLlAA" base_Element="_JqKXkDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JqLlsDGoEe2FoLK32lLlAA" base_Element="_JqKXkDGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JqLlsTGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqThgjGoEe2FoLK32lLlAA" base_Element="_JqS6cDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqWk0DGoEe2FoLK32lLlAA" base_Element="_JqV9wDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JqWk0TGoEe2FoLK32lLlAA" base_Element="_JqV9wDGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JqXL4DGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Jqa2QzGoEe2FoLK32lLlAA" base_Element="_Jqa2QDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqegoTGoEe2FoLK32lLlAA" base_Element="_Jqd5kTGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JqfHsDGoEe2FoLK32lLlAA" base_Element="_Jqd5kTGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JqfHsTGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqvmYDGoEe2FoLK32lLlAA" base_Element="_JquYQDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JqvmYTGoEe2FoLK32lLlAA" base_Element="_JquYQDGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JqvmYjGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqxbkDGoEe2FoLK32lLlAA" base_Element="_Jqw0gDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JqyCoDGoEe2FoLK32lLlAA" base_Element="_Jqw0gDGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JqyCoTGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JqzQwDGoEe2FoLK32lLlAA" base_Element="_JqypsDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_Jqz30DGoEe2FoLK32lLlAA" base_Element="_JqypsDGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_Jqz30TGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Jq1F8DGoEe2FoLK32lLlAA" base_Element="_Jq0e4DGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_Jq1F8TGoEe2FoLK32lLlAA" base_Element="_Jq0e4DGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_Jq1tADGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Jq2UETGoEe2FoLK32lLlAA" base_Element="_Jq1tATGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_Jq27IDGoEe2FoLK32lLlAA" base_Element="_Jq1tATGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_Jq27ITGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JrE9kDGoEe2FoLK32lLlAA" base_Element="_JrDvcDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JrFkoDGoEe2FoLK32lLlAA" base_Element="_JrE9kTGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JrGLsTGoEe2FoLK32lLlAA" base_Element="_JrFkoTGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JrGywTGoEe2FoLK32lLlAA" base_Element="_JrGLsjGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JrIA4zGoEe2FoLK32lLlAA" base_Element="_JrIA4DGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_Jt6PIDGoEe2FoLK32lLlAA" base_Element="_Jt5oEDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_Jt7dQDGoEe2FoLK32lLlAA" base_Element="_Jt62MDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JuCK8TGoEe2FoLK32lLlAA" base_Element="_JuCK8DGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JuDZEDGoEe2FoLK32lLlAA" base_Element="_JuCyADGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JuEAIDGoEe2FoLK32lLlAA" base_Element="_JuDZETGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JuEnMDGoEe2FoLK32lLlAA" base_Element="_JuEAITGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JuF1UDGoEe2FoLK32lLlAA" base_Element="_JuFOQDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JuHDcDGoEe2FoLK32lLlAA" base_Element="_JuF1UTGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JuIRkjGoEe2FoLK32lLlAA" base_Element="_JuHqgTGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JuI4oDGoEe2FoLK32lLlAA" base_Element="_JuHqgTGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JuI4oTGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JuJfsjGoEe2FoLK32lLlAA" base_Element="_JuI4ojGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JuKGwDGoEe2FoLK32lLlAA" base_Element="_JuI4ojGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JuKGwTGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JuLU4TGoEe2FoLK32lLlAA" base_Element="_JuKt0DGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JuL78DGoEe2FoLK32lLlAA" base_Element="_JuKt0DGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JuL78TGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JuXiIDGoEe2FoLK32lLlAA" base_Element="_JuW7EDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JuYJMDGoEe2FoLK32lLlAA" base_Element="_JuW7EDGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JuYJMTGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JuYwQjGoEe2FoLK32lLlAA" base_Element="_JuYwQDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JuZXUDGoEe2FoLK32lLlAA" base_Element="_JuYwQDGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JuZXUTGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JubMgDGoEe2FoLK32lLlAA" base_Element="_JuZ-YDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Annotations xmi:id="_JucaoDGoEe2FoLK32lLlAA" base_Element="_JuZ-YDGoEe2FoLK32lLlAA">
+    <annotations xmi:id="_JucaoTGoEe2FoLK32lLlAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Jufd8DGoEe2FoLK32lLlAA" base_Element="_Jue24DGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JuhTITGoEe2FoLK32lLlAA" base_Element="_JuhTIDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_Juh6MDGoEe2FoLK32lLlAA" base_Element="_JuhTIjGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JuihQDGoEe2FoLK32lLlAA" base_Element="_Juh6MTGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Generics xmi:id="_JuxKwDGoEe2FoLK32lLlAA" genericsValue="BoardDTO" base_Element="_Juv8oTGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ju2DQTGoEe2FoLK32lLlAA" base_Element="_Ju1cMDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ju2qUjGoEe2FoLK32lLlAA" base_Element="_Ju2qUDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JvNPoDGoEe2FoLK32lLlAA" base_Element="_JvMokTGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JvOdwDGoEe2FoLK32lLlAA" base_Element="_JvN2sDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JvPE0DGoEe2FoLK32lLlAA" base_Element="_JvOdwTGoEe2FoLK32lLlAA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JvPr4DGoEe2FoLK32lLlAA" name="getProFile" isStatic="true" method="_JvXAqDGoEe2FoLK32lLlAA">
+      <ownedParameter xmi:id="_JvPr4TGoEe2FoLK32lLlAA" type="_JuFOQDGoEe2FoLK32lLlAA" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <uml:OpaqueBehavior xmi:id="_JvXAqDGoEe2FoLK32lLlAA" name="getProFile" specification="_JvPr4DGoEe2FoLK32lLlAA">
+    <ownedParameter xmi:id="_JvXAqTGoEe2FoLK32lLlAA" type="_JuFOQDGoEe2FoLK32lLlAA" direction="return"/>
+    <language>java</language>
+    <body>return proFile;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_JvduUjGoEe2FoLK32lLlAA" base_Element="_JvduUDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JveVYjGoEe2FoLK32lLlAA" base_Element="_JveVYDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_Jve8cDGoEe2FoLK32lLlAA" base_Element="_JveVYzGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_Jve8czGoEe2FoLK32lLlAA" base_Element="_Jve8cTGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JvfjgDGoEe2FoLK32lLlAA" base_Element="_Jve8dDGoEe2FoLK32lLlAA"/>
+  <UMLLabProfile:Reference xmi:id="_JvgKkDGoEe2FoLK32lLlAA" base_Element="_JvfjgTGoEe2FoLK32lLlAA"/>
+</xmi:XMI>
